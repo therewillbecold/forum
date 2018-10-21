@@ -1,0 +1,14 @@
+{
+  "name": "sass-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass ./style/index.scss:./dist/index.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.10.4"
+  }
+}

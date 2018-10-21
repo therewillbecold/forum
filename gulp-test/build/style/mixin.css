@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* 混合传入参数 */
+.header1 {
+  border-top: 1px solid red;
+  width: 400px;
+  height: 26px;
+  margin-bottom: 30px; }
+  .header1:hover {
+    background: yellow; }
+  .header1 span {
+    color: red;
+    line-height: 26px;
+    height: 26px;
+    font-weight: bold; }
+  .header1 a {
+    color: red;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    text-decoration: none; }
+
+.header2 {
+  border-top: 1px solid blue;
+  width: 200px;
+  height: 26px;
+  margin-bottom: 30px; }
+  .header2:hover {
+    background: skyblue; }
+  .header2 span {
+    color: blue;
+    line-height: 26px;
+    height: 26px;
+    font-weight: bold; }
+  .header2 a {
+    color: blue;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    text-decoration: none; }
+
+.header3 {
+  border-top: 1px solid orange;
+  width: 300px;
+  height: 26px;
+  margin-bottom: 30px; }
+  .header3:hover {
+    background: #efefef; }
+  .header3 span {
+    color: orange;
+    line-height: 26px;
+    height: 26px;
+    font-weight: bold; }
+  .header3 a {
+    color: orange;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    text-decoration: none; }

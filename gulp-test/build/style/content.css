@@ -1,0 +1,116 @@
+.content {
+  padding-top: 20px;
+  width: 1920px;
+  background: #f7f7f7; }
+  .content .carousel {
+    width: 1130px;
+    height: 390px;
+    background: teal; }
+  .content .container {
+    margin-top: 20px; }
+    .content .container .mainLeft {
+      width: 780px;
+      height: 1680px;
+      background: white;
+      border: 1px solid #e6e6e6;
+      margin-right: 38px;
+      float: left; }
+      .content .container .mainLeft ul {
+        list-style: none; }
+        .content .container .mainLeft ul li {
+          width: 780px;
+          height: 260px;
+          border: 1px solid #e6e6e6;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+             -moz-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+             -moz-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+          .content .container .mainLeft ul li .liContainer {
+            width: 740px;
+            height: 220px;
+            border: 1px solid #e6e6e6; }
+            .content .container .mainLeft ul li .liContainer .liPic {
+              width: 290px;
+              height: 220px;
+              float: left;
+              border: 1px solid #e6e6e6; }
+            .content .container .mainLeft ul li .liContainer .liContent {
+              width: 430px;
+              height: 220px;
+              float: right;
+              border: 1px solid #e6e6e6; }
+              .content .container .mainLeft ul li .liContainer .liContent .tag {
+                font-size: 14px;
+                color: #327dd1;
+                margin-right: 13px;
+                text-align: center;
+                width: 46px;
+                height: 28px;
+                background: #ccdef3; }
+              .content .container .mainLeft ul li .liContainer .liContent .time {
+                width: 58px;
+                height: 12px;
+                font-size: 14px;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: #666666; }
+              .content .container .mainLeft ul li .liContainer .liContent .shareIcon {
+                width: 14px;
+                height: 14px;
+                border: 1px solid #e6e6e6;
+                float: right; }
+              .content .container .mainLeft ul li .liContainer .liContent .share {
+                font-size: 14px;
+                font-weight: 400;
+                color: #b2b2b2;
+                float: right; }
+              .content .container .mainLeft ul li .liContainer .liContent .line2 {
+                margin-top: 14px;
+                overflow: hidden; }
+                .content .container .mainLeft ul li .liContainer .liContent .line2 p {
+                  width: 420px;
+                  height: 50px;
+                  font-size: 20px;
+                  font-weight: 400;
+                  color: #333333; }
+              .content .container .mainLeft ul li .liContainer .liContent .line3 {
+                margin-top: 20px;
+                overflow: hidden; }
+                .content .container .mainLeft ul li .liContainer .liContent .line3 p {
+                  width: 430px;
+                  height: 64px;
+                  font-size: 16px;
+                  font-weight: 400;
+                  color: #777777;
+                  line-height: 21px; }
+              .content .container .mainLeft ul li .liContainer .liContent .line4 .liProPic {
+                width: 26px;
+                height: 26px;
+                background: black;
+                -webkit-border-radius: 50%;
+                   -moz-border-radius: 50%;
+                        border-radius: 50%; }
+              .content .container .mainLeft ul li .liContainer .liContent .line4 .userId {
+                width: 70px;
+                height: 12px;
+                font-size: 14px;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: #777777;
+                line-height: 24px; }
+    .content .container .mainRight {
+      width: 312px;
+      height: 1680px;
+      border: 1px solid #e6e6e6;
+      float: right; }

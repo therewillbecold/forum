@@ -1,0 +1,36 @@
+
+
+/* 混合传入参数 */
+
+@mixin headerStyle ($w, $bgColor, $color) {
+	border-top: 1px solid $color;
+	width: $w;
+	height: 26px;
+	margin-bottom: 30px;
+	&:hover {
+		background: $bgColor;
+	}
+	span {
+		color: $color;
+		line-height: 26px;
+		height: 26px;
+		font-weight: bold;
+	}
+	a {
+		color: $color;
+		font-weight: bold;
+		height: 26px;
+		line-height: 26px;
+		text-decoration: none;
+	}
+}
+
+.header1 {
+	@include headerStyle(400px, yellow, red);
+}
+.header2 {
+	@include headerStyle(200px, skyblue, blue);
+}
+.header3 {
+	@include headerStyle(300px, #efefef, orange);
+}

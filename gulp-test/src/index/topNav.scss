@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.topNav {
+  width: 1920px;
+  height: 36px;
+  background: rgba(64, 64, 64, 1);
+  font-size: 14px;
+  .typePage {
+    width: 1130px;
+    height: 36px;
+    margin: 0 auto;
+    .topNavLeft:nth-child(1) {
+    }
+    div {
+      float: left;
+      height: 14px;
+      font-size: 14px;
+      font-family: SourceHanSansCN-Light;
+      font-weight: 300;
+    //   color: #b7b7b7;
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+body {
+  background: white;
+  color: yellow; }
+  body h1 {
+    color: yellow;
+    background: blue; }
+  body div {
+    width: 20px;
+    height: 20px; }
+  body p {
+    color: red; }

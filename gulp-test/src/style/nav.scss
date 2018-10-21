@@ -1,0 +1,75 @@
+header {
+  .topNav {
+    width: 1920px;
+    height: 36px;
+    background: rgba(64, 64, 64, 1);
+    .topNavPart {
+      background: rgba(64, 64, 64, 1);
+      position: relative;
+      span {
+        float: left;
+        font-size: 14px;
+        line-height: 36px;
+        margin-right: 22px;
+        color: #b7b7b7;
+      }
+      span:hover {
+        color: #ffffff;
+      }
+      .profilePic {
+        position: absolute;
+        right: 79px;
+        top: 4px;
+        background-color: white;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        line-height: 36px;
+      }
+      .idName {
+        float: right;
+        margin: 0;
+      }
+    }
+  }
+  .nav {
+    width: 1920px;
+    height: 116px;
+    background: rgba(255, 255, 255, 1);
+    .headPart {
+      background: rgba(255, 255, 255, 1);
+      .head {
+        height: 68px;
+        background-color: gray;
+        position: relative;
+        border-bottom: 1px solid #e6e6e6;
+        .logo {
+          width: 120px;
+          height: 37px;
+          margin-right: 39px;
+          background: black;
+          position: absolute;
+          left: 0;
+          top: 22px;
+        }
+        .title {
+          width: 114px;
+          height: 25px;
+          background: black;
+          position: absolute;
+          left: 159px;
+          top: 24px;
+        }
+      }
+    }
+    .mainNav {
+      height: 47px;
+      background: pink;
+      display: flex;
+      justify-content: space-around;
+    }
+    span {
+      line-height: 47px;
+    }
+  }
+}
