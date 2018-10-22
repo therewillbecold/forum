@@ -1,0 +1,235 @@
+.content {
+  padding-top: 20px;
+  width: 1920px;
+  background: #f7f7f7;
+  .carousel {
+    width: 1130px;
+    height: 390px;
+    background: teal;
+  }
+  .conContainer {
+    margin-top: 20px;
+    .mainLeft {
+      width: 780px;
+      height: 1680px;
+      background: rgba(255, 255, 255, 1);
+      border: 1px solid rgba(230, 230, 230, 1);
+      margin-right: 38px;
+      float: left;
+      ul {
+        list-style: none;
+        li {
+          width: 780px;
+          height: 260px;
+          border: 1px solid #e6e6e6;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .liContainer {
+            width: 740px;
+            height: 220px;
+            border: 1px solid #e6e6e6;
+            .liPic {
+              width: 290px;
+              height: 220px;
+              float: left;
+              border: 1px solid #e6e6e6;
+            }
+            .liContent {
+              width: 430px;
+              height: 220px;
+              float: right;
+              border: 1px solid #e6e6e6;
+              position: relative;
+              .tag {
+                font-size: 14px;
+                color: #327dd1;
+                margin-right: 13px;
+                text-align: center;
+                padding: 6px;
+                background: #ccdef3;
+                position: absolute;
+                top: 0;
+              }
+              .time {
+                height: 12px;
+                font-size: 14px;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: rgba(102, 102, 102, 1);
+                position: absolute;
+                left: 51px;
+              }
+              .shareIcon {
+                width: 14px;
+                height: 14px;
+                border: 1px solid #e6e6e6;
+                background: black;
+                position: absolute;
+                top: 3px;
+                right: 34px;
+              }
+              .share {
+                font-size: 14px;
+                // font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: rgba(178, 178, 178, 1);
+                float: right;
+              }
+              .line2 {
+                margin-top: 14px;
+                overflow: hidden;
+                position: absolute;
+                top: 22px;
+                p {
+                  width: 420px;
+                  height: 50px;
+                  font-size: 20px;
+                  //   font-family: MicrosoftYaHei;
+                  font-weight: 400;
+                  color: rgba(51, 51, 51, 1);
+                }
+              }
+              .line3 {
+                overflow: hidden;
+                position: absolute;
+                top: 99px;
+                p {
+                  width: 430px;
+                  height: 64px;
+                  font-size: 16px;
+                  //   font-family: MicrosoftYaHei;
+                  font-weight: 400;
+                  color: rgba(119, 119, 119, 1);
+                  line-height: 21px;
+                }
+              }
+              .line4 {
+                .liProPic {
+                  width: 26px;
+                  height: 26px;
+                  background: rgba(0, 0, 0, 1);
+                  border-radius: 50%;
+                  position: absolute;
+                  bottom: 0;
+                }
+                .userId {
+                  width: 70px;
+                  height: 12px;
+                  font-size: 14px;
+                  font-family: MicrosoftYaHei;
+                  font-weight: 400;
+                  color: rgba(119, 119, 119, 1);
+                  line-height: 24px;
+                  position: absolute;
+                  bottom: 13px;
+                  left: 33px;
+                }
+                .cornerContainer {
+                  height: 14px;
+                  position: absolute;
+                  bottom: 10px;
+                  right: 0;
+                  .icon {
+                    display: inline-block;
+                  }
+                  .readIcon {
+                    width: 16px;
+                    height: 10px;
+                    background: black;
+                    margin-left: 6px;
+                  }
+                  .read {
+                    font-size: 12px;
+                    // font-family:MicrosoftYaHei;
+                    font-weight: 400;
+                    color: #666666;
+                    margin-left: 6px;
+                  }
+                  .commentsIcon {
+                    width: 14px;
+                    height: 12px;
+                    background: black;
+                    margin-left: 6px;
+                  }
+                  .comments {
+                    font-size: 12px;
+                    color: #666666;
+                    margin-left: 6px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .mainRight {
+      width: 312px;
+      height: 1680px;
+      border: 1px solid rgba(230, 230, 230, 1);
+      float: left;
+      .myUpdate {
+        width: 312px;
+        height: 160px;
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(230, 230, 230, 1);
+        .post {
+          margin: 20px 20px 0 20px;
+          width: 272px;
+          height: 55px;
+          background: rgba(19, 142, 212, 1);
+        }
+        .checkInPart {
+          margin: 10px 20px 10px 20px;
+          width: 272px;
+          height: 55px;
+          position: relative;
+          .checkIn {
+            width: 101px;
+            height: 55px;
+            background: rgba(19, 142, 212, 1);
+            float: left;
+          }
+          .checkInDetails {
+            width: 171px;
+            height: 55px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 1);
+            border: 2px solid rgba(19, 142, 212, 1);
+            float: right;
+            .detailsTop {
+              margin: -6px 0 0 0;
+              border-bottom: 1px solid #d9d9d9;
+              font-size: 14px;
+              padding: 0 0 2px 20px;
+              color: #666666;
+              .checkInIcon {
+                width: 16px;
+                height: 16px;
+                background: black;
+                position: absolute;
+                left: 112px;
+                top: 7px;
+              }
+            }
+            .detailsBottom {
+              margin: -4px 0 0 0;
+              font-size: 14px;
+              padding: 5px 0 2px 20px;
+              color: #666666;
+              .checkInIcon {
+                width: 16px;
+                height: 14px;
+                background: black;
+                position: absolute;
+                left: 112px;
+                top: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

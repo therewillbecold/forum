@@ -1,0 +1,208 @@
+.content {
+  padding-top: 20px;
+  width: 1920px;
+  background: #f7f7f7; }
+  .content .carousel {
+    width: 1130px;
+    height: 390px;
+    background: teal; }
+  .content .conContainer {
+    margin-top: 20px; }
+    .content .conContainer .mainLeft {
+      width: 780px;
+      height: 1680px;
+      background: white;
+      border: 1px solid #e6e6e6;
+      margin-right: 38px;
+      float: left; }
+      .content .conContainer .mainLeft ul {
+        list-style: none; }
+        .content .conContainer .mainLeft ul li {
+          width: 780px;
+          height: 260px;
+          border: 1px solid #e6e6e6;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+             -moz-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+             -moz-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+          .content .conContainer .mainLeft ul li .liContainer {
+            width: 740px;
+            height: 220px;
+            border: 1px solid #e6e6e6; }
+            .content .conContainer .mainLeft ul li .liContainer .liPic {
+              width: 290px;
+              height: 220px;
+              float: left;
+              border: 1px solid #e6e6e6; }
+            .content .conContainer .mainLeft ul li .liContainer .liContent {
+              width: 430px;
+              height: 220px;
+              float: right;
+              border: 1px solid #e6e6e6;
+              position: relative; }
+              .content .conContainer .mainLeft ul li .liContainer .liContent .tag {
+                font-size: 14px;
+                color: #327dd1;
+                margin-right: 13px;
+                text-align: center;
+                padding: 6px;
+                background: #ccdef3;
+                position: absolute;
+                top: 0; }
+              .content .conContainer .mainLeft ul li .liContainer .liContent .time {
+                height: 12px;
+                font-size: 14px;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: #666666;
+                position: absolute;
+                left: 51px; }
+              .content .conContainer .mainLeft ul li .liContainer .liContent .shareIcon {
+                width: 14px;
+                height: 14px;
+                border: 1px solid #e6e6e6;
+                background: black;
+                position: absolute;
+                top: 3px;
+                right: 34px; }
+              .content .conContainer .mainLeft ul li .liContainer .liContent .share {
+                font-size: 14px;
+                font-weight: 400;
+                color: #b2b2b2;
+                float: right; }
+              .content .conContainer .mainLeft ul li .liContainer .liContent .line2 {
+                margin-top: 14px;
+                overflow: hidden;
+                position: absolute;
+                top: 22px; }
+                .content .conContainer .mainLeft ul li .liContainer .liContent .line2 p {
+                  width: 420px;
+                  height: 50px;
+                  font-size: 20px;
+                  font-weight: 400;
+                  color: #333333; }
+              .content .conContainer .mainLeft ul li .liContainer .liContent .line3 {
+                overflow: hidden;
+                position: absolute;
+                top: 99px; }
+                .content .conContainer .mainLeft ul li .liContainer .liContent .line3 p {
+                  width: 430px;
+                  height: 64px;
+                  font-size: 16px;
+                  font-weight: 400;
+                  color: #777777;
+                  line-height: 21px; }
+              .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .liProPic {
+                width: 26px;
+                height: 26px;
+                background: black;
+                -webkit-border-radius: 50%;
+                   -moz-border-radius: 50%;
+                        border-radius: 50%;
+                position: absolute;
+                bottom: 0; }
+              .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .userId {
+                width: 70px;
+                height: 12px;
+                font-size: 14px;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: #777777;
+                line-height: 24px;
+                position: absolute;
+                bottom: 13px;
+                left: 33px; }
+              .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .cornerContainer {
+                height: 14px;
+                position: absolute;
+                bottom: 10px;
+                right: 0; }
+                .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .icon {
+                  display: inline-block; }
+                .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .readIcon {
+                  width: 16px;
+                  height: 10px;
+                  background: black;
+                  margin-left: 6px; }
+                .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .read {
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #666666;
+                  margin-left: 6px; }
+                .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .commentsIcon {
+                  width: 14px;
+                  height: 12px;
+                  background: black;
+                  margin-left: 6px; }
+                .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .comments {
+                  font-size: 12px;
+                  color: #666666;
+                  margin-left: 6px; }
+    .content .conContainer .mainRight {
+      width: 312px;
+      height: 1680px;
+      border: 1px solid #e6e6e6;
+      float: left; }
+      .content .conContainer .mainRight .myUpdate {
+        width: 312px;
+        height: 160px;
+        background: white;
+        border: 1px solid #e6e6e6; }
+        .content .conContainer .mainRight .myUpdate .post {
+          margin: 20px 20px 0 20px;
+          width: 272px;
+          height: 55px;
+          background: #138ed4; }
+        .content .conContainer .mainRight .myUpdate .checkInPart {
+          margin: 10px 20px 10px 20px;
+          width: 272px;
+          height: 55px;
+          position: relative; }
+          .content .conContainer .mainRight .myUpdate .checkInPart .checkIn {
+            width: 101px;
+            height: 55px;
+            background: #138ed4;
+            float: left; }
+          .content .conContainer .mainRight .myUpdate .checkInPart .checkInDetails {
+            width: 171px;
+            height: 55px;
+            padding: 10px;
+            background: white;
+            border: 2px solid #138ed4;
+            float: right; }
+            .content .conContainer .mainRight .myUpdate .checkInPart .checkInDetails .detailsTop {
+              margin: -6px 0 0 0;
+              border-bottom: 1px solid #d9d9d9;
+              font-size: 14px;
+              padding: 0 0 2px 20px;
+              color: #666666; }
+              .content .conContainer .mainRight .myUpdate .checkInPart .checkInDetails .detailsTop .checkInIcon {
+                width: 16px;
+                height: 16px;
+                background: black;
+                position: absolute;
+                left: 112px;
+                top: 7px; }
+            .content .conContainer .mainRight .myUpdate .checkInPart .checkInDetails .detailsBottom {
+              margin: -4px 0 0 0;
+              font-size: 14px;
+              padding: 5px 0 2px 20px;
+              color: #666666; }
+              .content .conContainer .mainRight .myUpdate .checkInPart .checkInDetails .detailsBottom .checkInIcon {
+                width: 16px;
+                height: 14px;
+                background: black;
+                position: absolute;
+                left: 112px;
+                top: 32px; }
