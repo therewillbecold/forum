@@ -82,7 +82,8 @@ header {
     height: 390px;
     background: teal; }
   .content .conContainer {
-    margin-top: 20px; }
+    margin-top: 20px;
+    height: 1740px; }
     .content .conContainer .mainLeft {
       width: 780px;
       height: 1680px;
@@ -95,7 +96,6 @@ header {
         .content .conContainer .mainLeft ul li {
           width: 780px;
           height: 260px;
-          border: 1px solid #e6e6e6;
           display: -webkit-box;
           display: -webkit-flex;
           display: -moz-box;
@@ -113,18 +113,18 @@ header {
                   justify-content: center; }
           .content .conContainer .mainLeft ul li .liContainer {
             width: 740px;
-            height: 220px;
-            border: 1px solid #e6e6e6; }
+            padding-bottom: 20px;
+            height: 240px;
+            border-bottom: 1px solid #e6e6e6; }
             .content .conContainer .mainLeft ul li .liContainer .liPic {
               width: 290px;
               height: 220px;
               float: left;
-              border: 1px solid #e6e6e6; }
+              background: black; }
             .content .conContainer .mainLeft ul li .liContainer .liContent {
               width: 430px;
               height: 220px;
               float: right;
-              border: 1px solid #e6e6e6;
               position: relative; }
               .content .conContainer .mainLeft ul li .liContainer .liContent .tag {
                 font-size: 14px;
@@ -142,11 +142,11 @@ header {
                 font-weight: 400;
                 color: #666666;
                 position: absolute;
-                left: 51px; }
+                left: 51px;
+                top: 6px; }
               .content .conContainer .mainLeft ul li .liContainer .liContent .shareIcon {
                 width: 14px;
                 height: 14px;
-                border: 1px solid #e6e6e6;
                 background: black;
                 position: absolute;
                 top: 3px;
@@ -154,6 +154,12 @@ header {
               .content .conContainer .mainLeft ul li .liContainer .liContent .share {
                 font-size: 14px;
                 font-weight: 400;
+                display: -webkit-box;
+                overflow: hidden;
+                -o-text-overflow: ellipsis;
+                   text-overflow: ellipsis;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
                 color: #b2b2b2;
                 float: right; }
               .content .conContainer .mainLeft ul li .liContainer .liContent .line2 {
@@ -166,7 +172,13 @@ header {
                   height: 50px;
                   font-size: 20px;
                   font-weight: 400;
-                  color: #333333; }
+                  color: #333333;
+                  display: -webkit-box;
+                  overflow: hidden;
+                  -o-text-overflow: ellipsis;
+                     text-overflow: ellipsis;
+                  -webkit-line-clamp: 2;
+                  -webkit-box-orient: vertical; }
               .content .conContainer .mainLeft ul li .liContainer .liContent .line3 {
                 overflow: hidden;
                 position: absolute;
@@ -227,9 +239,9 @@ header {
     .content .conContainer .mainRight {
       width: 312px;
       height: 1680px;
-      border: 1px solid #e6e6e6;
       float: left; }
       .content .conContainer .mainRight .myUpdate {
+        position: relative;
         width: 312px;
         height: 160px;
         background: white;
@@ -239,6 +251,17 @@ header {
           width: 272px;
           height: 55px;
           background: #138ed4; }
+          .content .conContainer .mainRight .myUpdate .post .postLeft {
+            position: absolute;
+            top: 38px;
+            left: 87px;
+            width: 20px;
+            height: 20px;
+            background: black; }
+          .content .conContainer .mainRight .myUpdate .post .postRight {
+            text-align: center;
+            line-height: 55px;
+            color: #ffffff; }
         .content .conContainer .mainRight .myUpdate .checkInPart {
           margin: 10px 20px 10px 20px;
           width: 272px;
@@ -248,7 +271,19 @@ header {
             width: 101px;
             height: 55px;
             background: #138ed4;
-            float: left; }
+            float: left;
+            padding-left: 36px; }
+            .content .conContainer .mainRight .myUpdate .checkInPart .checkIn .checkInLeft {
+              position: absolute;
+              top: 17px;
+              left: 18px;
+              width: 24px;
+              height: 22px;
+              background: black; }
+            .content .conContainer .mainRight .myUpdate .checkInPart .checkIn .checkInRight {
+              text-align: center;
+              line-height: 55px;
+              color: #ffffff; }
           .content .conContainer .mainRight .myUpdate .checkInPart .checkInDetails {
             width: 171px;
             height: 55px;
@@ -281,23 +316,368 @@ header {
                 position: absolute;
                 left: 112px;
                 top: 32px; }
+      .content .conContainer .mainRight .trendingPart {
+        width: 312px;
+        height: 390px;
+        background: white;
+        border: 1px solid #e6e6e6;
+        margin-top: 20px;
+        position: relative; }
+        .content .conContainer .mainRight .trendingPart .trendingbg {
+          position: absolute;
+          width: 306px;
+          height: 384px;
+          background: white;
+          border: 1px solid #e6e6e6; }
+        .content .conContainer .mainRight .trendingPart .trendingbg1 {
+          top: 6px;
+          left: 3px; }
+        .content .conContainer .mainRight .trendingPart .trendingbg2 {
+          top: 3px;
+          left: 0px; }
+        .content .conContainer .mainRight .trendingPart .trending {
+          top: 0px;
+          left: -3px; }
+          .content .conContainer .mainRight .trendingPart .trending .topPost {
+            width: 90px;
+            height: 38px;
+            background: #3e93d2;
+            -webkit-border-radius: 0px 19px 19px 0px;
+               -moz-border-radius: 0px 19px 19px 0px;
+                    border-radius: 0px 19px 19px 0px;
+            text-align: center;
+            line-height: 38px;
+            font-size: 16px;
+            font-family: MicrosoftYaHei-Bold;
+            font-weight: bold;
+            color: white;
+            position: absolute;
+            top: 16px; }
+          .content .conContainer .mainRight .trendingPart .trending .refresh {
+            width: 34px;
+            height: 57px;
+            background: black;
+            position: absolute;
+            right: 14px; }
+          .content .conContainer .mainRight .trendingPart .trending .line {
+            height: 270px;
+            border-left: 1px solid #a2c3dc;
+            position: absolute;
+            left: 22px;
+            top: 72px; }
+          .content .conContainer .mainRight .trendingPart .trending .circle {
+            width: 5px;
+            height: 5px;
+            background: #3e93d2;
+            -webkit-border-radius: 50%;
+               -moz-border-radius: 50%;
+                    border-radius: 50%; }
+          .content .conContainer .mainRight .trendingPart .trending .circle1 {
+            position: absolute;
+            top: 71px;
+            left: 20px; }
+          .content .conContainer .mainRight .trendingPart .trending .circle2 {
+            position: absolute;
+            top: 131px;
+            left: 20px; }
+          .content .conContainer .mainRight .trendingPart .trending .circle3 {
+            position: absolute;
+            top: 191px;
+            left: 20px; }
+          .content .conContainer .mainRight .trendingPart .trending .circle4 {
+            position: absolute;
+            top: 251px;
+            left: 20px; }
+          .content .conContainer .mainRight .trendingPart .trending .circle5 {
+            position: absolute;
+            top: 311px;
+            left: 20px; }
+          .content .conContainer .mainRight .trendingPart .trending ul {
+            list-style: none;
+            position: absolute;
+            top: 68px;
+            left: 40px; }
+            .content .conContainer .mainRight .trendingPart .trending ul li {
+              width: 224px;
+              height: 53px;
+              position: relative;
+              margin-bottom: 10px; }
+              .content .conContainer .mainRight .trendingPart .trending ul li .liTime {
+                position: absolute;
+                top: -2px;
+                font-size: 12px;
+                font-weight: 400;
+                color: #b7c7d2; }
+              .content .conContainer .mainRight .trendingPart .trending ul li .liContent {
+                position: absolute;
+                width: 224px;
+                height: 33px;
+                font-size: 14px;
+                font-family: MicrosoftYaHei-Bold;
+                font-weight: bold;
+                color: #666666;
+                line-height: 20px;
+                position: absolute;
+                top: 15px; }
+              .content .conContainer .mainRight .trendingPart .trending ul li .lsatLiContent {
+                background-image: -webkit-linear-gradient(top, #666666, #ffffff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent; }
+      .content .conContainer .mainRight .sidebar {
+        width: 312px;
+        height: 820px;
+        background: white;
+        margin-top: 20px;
+        position: relative;
+        border: 1px solid #e5e5e5; }
+        .content .conContainer .mainRight .sidebar .recommendTitle {
+          font-size: 16px;
+          font-weight: bold;
+          color: #333333;
+          line-height: 24px;
+          padding: 20px 0 0 20px; }
+        .content .conContainer .mainRight .sidebar .recommendModules {
+          width: 270px;
+          height: 180px;
+          margin: 17px 20px 20px 20px;
+          border: 1px solid #e5e5e5; }
+          .content .conContainer .mainRight .sidebar .recommendModules .module {
+            width: 134px;
+            height: 36px;
+            border: 1px solid #e5e5e5;
+            float: left;
+            padding: 7px 0 6px 14px;
+            font-size: 14px;
+            font-weight: 400;
+            color: #666666;
+            background: white; }
+          .content .conContainer .mainRight .sidebar .recommendModules .module1 {
+            background: #f7f7f7;
+            color: #138ed4; }
+          .content .conContainer .mainRight .sidebar .recommendModules .module9 {
+            width: 270px;
+            height: 36px;
+            float: left;
+            text-align: center;
+            line-height: 36px;
+            font-size: 14px;
+            font-weight: 400;
+            color: #666666;
+            border: 1px solid #e5e5e5;
+            position: relative; }
+            .content .conContainer .mainRight .sidebar .recommendModules .module9 .array {
+              width: 12px;
+              height: 11px;
+              background: black;
+              position: absolute;
+              top: 12px;
+              left: 182px; }
+        .content .conContainer .mainRight .sidebar .activitiveUsers {
+          width: 270px;
+          height: 396px;
+          border-top: 1px solid #e5e5e5;
+          border-bottom: 1px solid #e5e5e5;
+          margin: 0 20px 20px 20px;
+          position: relative; }
+          .content .conContainer .mainRight .sidebar .activitiveUsers .title {
+            font-size: 16px;
+            font-family: MicrosoftYaHei-Bold;
+            font-weight: bold;
+            color: #333333;
+            padding: 20px; }
+          .content .conContainer .mainRight .sidebar .activitiveUsers .refresh {
+            font-size: 14px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: #666666;
+            padding: 20px;
+            position: absolute;
+            top: 0;
+            right: 0; }
+          .content .conContainer .mainRight .sidebar .activitiveUsers .refreshIcon {
+            width: 12px;
+            height: 14px;
+            background: black;
+            position: absolute;
+            top: 23px;
+            right: 1px; }
+          .content .conContainer .mainRight .sidebar .activitiveUsers ul {
+            list-style: none; }
+            .content .conContainer .mainRight .sidebar .activitiveUsers ul li {
+              width: 270px;
+              height: 48px;
+              position: relative;
+              margin-bottom: 18px; }
+              .content .conContainer .mainRight .sidebar .activitiveUsers ul li .userProPic {
+                position: absolute;
+                width: 44px;
+                height: 44px;
+                background: black;
+                -webkit-border-radius: 50%;
+                   -moz-border-radius: 50%;
+                        border-radius: 50%; }
+              .content .conContainer .mainRight .sidebar .activitiveUsers ul li .userName {
+                position: absolute;
+                top: 5px;
+                left: 62px;
+                font-size: 14px;
+                font-weight: bold;
+                color: #333333;
+                width: 70px;
+                overflow: hidden;
+                -o-text-overflow: ellipsis;
+                   text-overflow: ellipsis;
+                white-space: nowrap; }
+              .content .conContainer .mainRight .sidebar .activitiveUsers ul li .level {
+                position: absolute;
+                top: 7px;
+                left: 142px;
+                font-size: 14px;
+                font-weight: 400;
+                color: #666666; }
+              .content .conContainer .mainRight .sidebar .activitiveUsers ul li .postNum {
+                position: absolute;
+                bottom: 4px;
+                left: 62px;
+                font-size: 12px;
+                font-weight: 400;
+                color: #666666; }
+              .content .conContainer .mainRight .sidebar .activitiveUsers ul li .subscribe {
+                width: 64px;
+                height: 28px;
+                border: 1px solid #cccccc;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+                position: absolute;
+                top: 9px;
+                right: -1px;
+                font-size: 12px;
+                font-family: Adobe Heiti Std R;
+                font-weight: normal;
+                text-align: center;
+                line-height: 28px;
+                color: #333333; }
+        .content .conContainer .mainRight .sidebar .service {
+          width: 270px;
+          height: 135px;
+          position: relative;
+          margin: 0 auto; }
+          .content .conContainer .mainRight .sidebar .service .title {
+            font-size: 16px;
+            font-family: MicrosoftYaHei-Bold;
+            font-weight: bold;
+            color: #333333; }
+          .content .conContainer .mainRight .sidebar .service .hotLine {
+            font-size: 16px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: #333333;
+            position: absolute;
+            top: 40px;
+            left: 70px; }
+          .content .conContainer .mainRight .sidebar .service .btn {
+            width: 118px;
+            height: 44px;
+            border: 1px solid #cccccc;
+            -webkit-border-radius: 6px;
+               -moz-border-radius: 6px;
+                    border-radius: 6px;
+            text-align: center;
+            line-height: 44px;
+            font-size: 16px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: #333333;
+            position: absolute;
+            top: 75px; }
+          .content .conContainer .mainRight .sidebar .service .onlineServise {
+            color: #138ed4;
+            left: 10px; }
+          .content .conContainer .mainRight .sidebar .service .report {
+            right: 10px; }
+      .content .conContainer .mainRight .barcode {
+        margin-top: 20px;
+        width: 312px;
+        height: 310px;
+        background: white;
+        border: 1px solid #e5e5e5;
+        text-align: center;
+        font-size: 18px;
+        font-family: MicrosoftYaHei;
+        font-weight: 400;
+        color: #333333;
+        padding: 50px; }
+        .content .conContainer .mainRight .barcode .code {
+          width: 170px;
+          height: 170px;
+          background: black;
+          margin: 20px; }
+
+.footer {
+  width: 100%;
+  height: 179px;
+  margin-top: 40px;
+  background: white;
+  padding-top: 20px; }
+  .footer .footerCommon {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center; }
+  .footer .footerNav {
+    width: 1130px;
+    height: 30px;
+    margin: 0 auto; }
+    .footer .footerNav ul {
+      margin: 0 auto;
+      width: 816px;
+      height: 30px; }
+      .footer .footerNav ul li {
+        float: left;
+        height: 30px;
+        cursor: pointer; }
+        .footer .footerNav ul li a {
+          border-right: 1px solid #cccccc;
+          text-decoration: none;
+          -webkit-transition: all 0.2s ease;
+          -o-transition: all 0.2s ease;
+          -moz-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+          color: #666;
+          font-size: 12px;
+          padding: 0 5px;
+          line-height: 30px; }
+        .footer .footerNav ul li .last {
+          border: none; }
+      .footer .footerNav ul li:hover a {
+        color: #337ab7; }
+  .footer .info a {
+    color: #666; }
+  .footer .info a:hover {
+    color: #337ab7;
+    cursor: pointer; }
 
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
   margin: 0;
   padding: 0; }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
-  background: #f7f7f7; }
+  background: #f7f7f7;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; }
 
 .container {
   width: 100%;
   height: 100%;
-  background: #f7f7f7 !important; }
+  background: #f7f7f7; }
 
 .typeArea {
   margin: 0 auto;
