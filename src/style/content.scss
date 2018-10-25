@@ -41,25 +41,30 @@
               height: 220px;
               float: right;
               position: relative;
-              .tag {
+              .left{
                 font-size: 14px;
+                text-align: center;
+                padding: 6px;
+                position: absolute;
+                top: 0;
+              }
+              .tag {
+                max-width: 250px;
+                display: inline-block;
                 color: #327dd1;
                 margin-right: 13px;
                 text-align: center;
                 padding: 6px;
                 background: #ccdef3;
-                position: absolute;
-                top: 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
               }
               .time {
-                height: 12px;
-                font-size: 14px;
-                font-family: MicrosoftYaHei;
-                font-weight: 400;
-                color: rgba(102, 102, 102, 1);
+                right: -50px;
+                display: block;
                 position: absolute;
-                left: 51px;
-                top: 6px;
+                top: 10px;
               }
               .shareIcon {
                 width: 14px;

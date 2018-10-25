@@ -51,24 +51,29 @@
               height: 220px;
               float: right;
               position: relative; }
-              .content .conContainer .mainLeft ul li .liContainer .liContent .tag {
+              .content .conContainer .mainLeft ul li .liContainer .liContent .left {
                 font-size: 14px;
+                text-align: center;
+                padding: 6px;
+                position: absolute;
+                top: 0; }
+              .content .conContainer .mainLeft ul li .liContainer .liContent .tag {
+                max-width: 250px;
+                display: inline-block;
                 color: #327dd1;
                 margin-right: 13px;
                 text-align: center;
                 padding: 6px;
                 background: #ccdef3;
-                position: absolute;
-                top: 0; }
+                overflow: hidden;
+                -o-text-overflow: ellipsis;
+                   text-overflow: ellipsis;
+                white-space: nowrap; }
               .content .conContainer .mainLeft ul li .liContainer .liContent .time {
-                height: 12px;
-                font-size: 14px;
-                font-family: MicrosoftYaHei;
-                font-weight: 400;
-                color: #666666;
+                right: -50px;
+                display: block;
                 position: absolute;
-                left: 51px;
-                top: 6px; }
+                top: 10px; }
               .content .conContainer .mainLeft ul li .liContainer .liContent .shareIcon {
                 width: 14px;
                 height: 14px;
