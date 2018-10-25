@@ -1,29 +1,37 @@
-@import './nav.scss';
-@import './content.scss';
+@import "./nav.scss";
+@import "./content.scss";
+@import "./footer.scss";
+
 // @import './nest.scss';
 // @import './a.sass';
 // @import './variables.scss';
 // @import './mixin.scss';
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
-html,body{
-    width: 100%;
-    height:100%;
-    background: #f7f7f7;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",
+    sans-serif;
 }
-.container{
-    width: 100%;
-    height:100%;
-    background:#f7f7f7 !important;
+.container {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
 }
-.typeArea{
-    margin: 0 auto;
-    width: 1130px;
-    overflow: hidden;
+.typeArea {
+  margin: 0 auto;
+  width: 1130px;
+  overflow: hidden;
 }
 
 // /* 混合 */
@@ -49,15 +57,12 @@ html,body{
 //     height: 200px;
 // }
 
-
 // /*
 //  * 制作三角形
 //  * $directio	三角形的方向 默认值 top
 //  * $width		三角形的宽度 默认值 20px
 //  * $color		三角形的颜色 默认值 #000
-//  */ 
-
-
+//  */
 // @mixin trangle ($direction:bottom , $width: 20px, $color: #000) {
 //     width: 0;
 //     height: 0;
@@ -77,11 +82,6 @@ html,body{
 //     @include format;
 // }
 
-
-
-
-
-
 // /* 继承 */
 // .dad{
 // width: 100px;
@@ -94,7 +94,6 @@ html,body{
 // .son{
 //     @extend .dad;
 // }
-
 
 // /* 占位符 */
 // %trangle{
@@ -109,7 +108,6 @@ html,body{
 //     border-bottom: 20px solid rgb(20, 129, 133);
 //     @include format;
 // }
-
 
 // /* 数学运算 */
 // .math{
@@ -128,14 +126,13 @@ html,body{
 // .row{
 //     width: 100px;
 // }
- 
+
 // @for $i from 1 through 24{
 // .col-#{$i}{
 //     width:(100% /24 * $i);
 //     float: left;
 // }
 // }
-
 
 // /* 栅格 */
 // .row{
@@ -148,5 +145,3 @@ html,body{
 //         float: left;
 // 	}
 // }
-
-
