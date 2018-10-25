@@ -31,7 +31,84 @@
       position: absolute;
       right: 0;
       top: 0;
-      margin: 0; }
+      margin: 0;
+      width: 60px;
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+         text-overflow: ellipsis;
+      white-space: nowrap; }
+  .topNav .myInfo {
+    width: 234px;
+    height: 284px;
+    background: url(/static/image/icon/myinfo.png);
+    position: absolute;
+    top: 23px;
+    right: 76px;
+    z-index: 1; }
+    .topNav .myInfo .myInfoTop {
+      width: 188px;
+      height: 48px;
+      border: 1px solid #e6e6e6;
+      margin: 26px; }
+      .topNav .myInfo .myInfoTop .profilePic {
+        width: 47px;
+        height: 47px;
+        -webkit-border-radius: 50%;
+           -moz-border-radius: 50%;
+                border-radius: 50%;
+        margin-right: 11px;
+        background: black; }
+      .topNav .myInfo .myInfoTop .profileLeft .idName {
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        width: 60px;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis;
+        white-space: nowrap;
+        position: absolute;
+        top: 26px;
+        left: 82px; }
+      .topNav .myInfo .myInfoTop .profileLeft .position {
+        font-size: 12px;
+        font-weight: 400;
+        color: #999999;
+        position: absolute;
+        top: 40px;
+        left: 82px; }
+      .topNav .myInfo .myInfoTop .profileLeft .profileLeftBottom .experience {
+        font-size: 12px;
+        font-family: MicrosoftYaHei;
+        font-weight: 400;
+        color: #999999;
+        position: absolute;
+        top: 55px;
+        left: 82px; }
+      .topNav .myInfo .myInfoTop .profileLeft .profileLeftBottom .wealth {
+        font-size: 12px;
+        font-family: MicrosoftYaHei;
+        font-weight: 400;
+        color: #999999;
+        position: absolute;
+        top: 55px;
+        left: 161px; }
+    .topNav .myInfo .myInfomiddle {
+      width: 196px;
+      height: 152px;
+      border: 1px solid black;
+      position: absolute;
+      top: 93px;
+      left: 26px; }
+      .topNav .myInfo .myInfomiddle .btn {
+        width: 94px;
+        height: 32px;
+        background: #1684c2;
+        -webkit-border-radius: 6px;
+           -moz-border-radius: 6px;
+                border-radius: 6px;
+        float: left;
+        margin: 0 2px 7px 1px; }
 
 header {
   width: 100%;
@@ -53,18 +130,18 @@ header {
         header .nav .headPart .head .logo {
           width: 120px;
           height: 37px;
-          margin-right: 39px;
-          background: black;
           position: absolute;
           left: 0;
           top: 22px; }
         header .nav .headPart .head .title {
           width: 114px;
           height: 25px;
-          background: black;
           position: absolute;
           left: 159px;
-          top: 24px; }
+          top: 24px;
+          padding-left: 16px;
+          margin-left: -22px;
+          border-left: 1px solid #e6e6e6; }
     header .nav .mainNav {
       height: 47px;
       background: white; }
@@ -147,7 +224,6 @@ header {
               .content .conContainer .mainLeft ul li .liContainer .liContent .shareIcon {
                 width: 14px;
                 height: 14px;
-                background: black;
                 position: absolute;
                 top: 3px;
                 right: 34px; }
@@ -220,7 +296,6 @@ header {
                 .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .readIcon {
                   width: 16px;
                   height: 10px;
-                  background: black;
                   margin-left: 6px; }
                 .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .read {
                   font-size: 12px;
@@ -230,12 +305,13 @@ header {
                 .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .commentsIcon {
                   width: 14px;
                   height: 12px;
-                  background: black;
                   margin-left: 6px; }
                 .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .comments {
                   font-size: 12px;
                   color: #666666;
                   margin-left: 6px; }
+      .content .conContainer .mainLeft .pagination {
+        margin: 36px 66px; }
     .content .conContainer .mainRight {
       width: 312px;
       height: 1680px;
@@ -256,8 +332,7 @@ header {
             top: 38px;
             left: 87px;
             width: 20px;
-            height: 20px;
-            background: black; }
+            height: 20px; }
           .content .conContainer .mainRight .myUpdate .post .postRight {
             text-align: center;
             line-height: 55px;
@@ -278,8 +353,7 @@ header {
               top: 17px;
               left: 18px;
               width: 24px;
-              height: 22px;
-              background: black; }
+              height: 22px; }
             .content .conContainer .mainRight .myUpdate .checkInPart .checkIn .checkInRight {
               text-align: center;
               line-height: 55px;
@@ -300,7 +374,6 @@ header {
               .content .conContainer .mainRight .myUpdate .checkInPart .checkInDetails .detailsTop .checkInIcon {
                 width: 16px;
                 height: 16px;
-                background: black;
                 position: absolute;
                 left: 112px;
                 top: 7px; }
@@ -312,15 +385,12 @@ header {
               .content .conContainer .mainRight .myUpdate .checkInPart .checkInDetails .detailsBottom .checkInIcon {
                 width: 16px;
                 height: 14px;
-                background: black;
                 position: absolute;
                 left: 112px;
                 top: 32px; }
       .content .conContainer .mainRight .trendingPart {
         width: 312px;
         height: 390px;
-        background: white;
-        border: 1px solid #e6e6e6;
         margin-top: 20px;
         position: relative; }
         .content .conContainer .mainRight .trendingPart .trendingbg {
@@ -356,7 +426,6 @@ header {
           .content .conContainer .mainRight .trendingPart .trending .refresh {
             width: 34px;
             height: 57px;
-            background: black;
             position: absolute;
             right: 14px; }
           .content .conContainer .mainRight .trendingPart .trending .line {
@@ -451,7 +520,7 @@ header {
             font-weight: 400;
             color: #666666;
             background: white; }
-          .content .conContainer .mainRight .sidebar .recommendModules .module1 {
+          .content .conContainer .mainRight .sidebar .recommendModules .module:hover {
             background: #f7f7f7;
             color: #138ed4; }
           .content .conContainer .mainRight .sidebar .recommendModules .module9 {
@@ -465,13 +534,15 @@ header {
             color: #666666;
             border: 1px solid #e5e5e5;
             position: relative; }
-            .content .conContainer .mainRight .sidebar .recommendModules .module9 .array {
+            .content .conContainer .mainRight .sidebar .recommendModules .module9 .arrow {
               width: 12px;
               height: 11px;
-              background: black;
               position: absolute;
-              top: 12px;
-              left: 182px; }
+              left: 182px;
+              top: 0; }
+          .content .conContainer .mainRight .sidebar .recommendModules .module9:hover {
+            background: #f7f7f7;
+            color: #138ed4; }
         .content .conContainer .mainRight .sidebar .activitiveUsers {
           width: 270px;
           height: 396px;
@@ -497,7 +568,6 @@ header {
           .content .conContainer .mainRight .sidebar .activitiveUsers .refreshIcon {
             width: 12px;
             height: 14px;
-            background: black;
             position: absolute;
             top: 23px;
             right: 1px; }
@@ -523,7 +593,7 @@ header {
                 font-size: 14px;
                 font-weight: bold;
                 color: #333333;
-                width: 70px;
+                width: 60px;
                 overflow: hidden;
                 -o-text-overflow: ellipsis;
                    text-overflow: ellipsis;
@@ -590,12 +660,30 @@ header {
             font-weight: 400;
             color: #333333;
             position: absolute;
-            top: 75px; }
+            top: 75px;
+            padding: 0 0 0 35px; }
+            .content .conContainer .mainRight .sidebar .service .btn .btnIcon {
+              width: 22px;
+              height: 22px;
+              position: absolute;
+              top: 12px;
+              left: 14px; }
           .content .conContainer .mainRight .sidebar .service .onlineServise {
-            color: #138ed4;
             left: 10px; }
+            .content .conContainer .mainRight .sidebar .service .onlineServise .btnIcon1 {
+              background: url("/static/image/icon/service.png"); }
+          .content .conContainer .mainRight .sidebar .service .onlineServise:hover {
+            color: #138ed4; }
+            .content .conContainer .mainRight .sidebar .service .onlineServise:hover .btnIcon1 {
+              background: url("/static/image/icon/hlservice.png"); }
           .content .conContainer .mainRight .sidebar .service .report {
             right: 10px; }
+            .content .conContainer .mainRight .sidebar .service .report .btnIcon2 {
+              background: url("/static/image/icon/report.png"); }
+          .content .conContainer .mainRight .sidebar .service .report:hover {
+            color: #138ed4; }
+            .content .conContainer .mainRight .sidebar .service .report:hover .btnIcon2 {
+              background: url("/static/image/icon/hlreport.png"); }
       .content .conContainer .mainRight .barcode {
         margin-top: 20px;
         width: 312px;
@@ -672,7 +760,7 @@ body {
   width: 100%;
   height: 100%;
   background: #f7f7f7;
-  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; }
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; }
 
 .container {
   width: 100%;

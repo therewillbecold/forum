@@ -59,12 +59,11 @@
                 color: rgba(102, 102, 102, 1);
                 position: absolute;
                 left: 51px;
-                top:6px;
+                top: 6px;
               }
               .shareIcon {
                 width: 14px;
                 height: 14px;
-                background: black;
                 position: absolute;
                 top: 3px;
                 right: 34px;
@@ -143,7 +142,6 @@
                   .readIcon {
                     width: 16px;
                     height: 10px;
-                    background: black;
                     margin-left: 6px;
                   }
                   .read {
@@ -156,7 +154,6 @@
                   .commentsIcon {
                     width: 14px;
                     height: 12px;
-                    background: black;
                     margin-left: 6px;
                   }
                   .comments {
@@ -169,6 +166,9 @@
             }
           }
         }
+      }
+      .pagination{
+        margin: 36px 66px;
       }
     }
     .mainRight {
@@ -192,7 +192,6 @@
             left: 87px;
             width: 20px;
             height: 20px;
-            background: black;
           }
           .postRight {
             text-align: center;
@@ -218,7 +217,6 @@
               left: 18px;
               width: 24px;
               height: 22px;
-              background: black;
             }
             .checkInRight {
               text-align: center;
@@ -242,7 +240,6 @@
               .checkInIcon {
                 width: 16px;
                 height: 16px;
-                background: black;
                 position: absolute;
                 left: 112px;
                 top: 7px;
@@ -256,7 +253,6 @@
               .checkInIcon {
                 width: 16px;
                 height: 14px;
-                background: black;
                 position: absolute;
                 left: 112px;
                 top: 32px;
@@ -268,8 +264,6 @@
       .trendingPart {
         width: 312px;
         height: 390px;
-        background: rgba(255, 255, 255, 1);
-        border: 1px solid rgba(230, 230, 230, 1);
         margin-top: 20px;
         position: relative;
         .trendingbg {
@@ -307,7 +301,6 @@
           .refresh {
             width: 34px;
             height: 57px;
-            background: black;
             position: absolute;
             right: 14px;
           }
@@ -421,7 +414,7 @@
             color: rgba(102, 102, 102, 1);
             background: rgba(255, 255, 255, 1);
           }
-          .module1 {
+          .module:hover {
             background: rgba(247, 247, 247, 1);
             color: rgba(19, 142, 212, 1);
           }
@@ -436,14 +429,17 @@
             color: rgba(102, 102, 102, 1);
             border: 1px solid rgba(229, 229, 229, 1);
             position: relative;
-            .array {
+            .arrow {
               width: 12px;
               height: 11px;
-              background: black;
               position: absolute;
-              top: 12px;
               left: 182px;
+              top: 0;
             }
+          }
+          .module9:hover {
+            background: rgba(247, 247, 247, 1);
+            color: rgba(19, 142, 212, 1);
           }
         }
         .activitiveUsers {
@@ -473,7 +469,6 @@
           .refreshIcon {
             width: 12px;
             height: 14px;
-            background: black;
             position: absolute;
             top: 23px;
             right: 1px;
@@ -499,7 +494,7 @@
                 font-size: 14px;
                 font-weight: bold;
                 color: rgba(51, 51, 51, 1);
-                width: 70px;
+                width: 60px;
                 overflow: hidden;
                 text-overflow: ellipsis;
                 white-space: nowrap;
@@ -573,13 +568,38 @@
             color: rgba(51, 51, 51, 1);
             position: absolute;
             top: 75px;
+            padding: 0 0 0 35px;
+            .btnIcon {
+              width: 22px;
+              height: 22px;
+              position: absolute;
+              top: 12px;
+              left: 14px;
+            }
           }
           .onlineServise {
-            color: rgba(19, 142, 212, 1);
             left: 10px;
+            .btnIcon1 {
+              background: url("/static/image/icon/service.png");
+            }
+          }
+          .onlineServise:hover {
+            color: rgba(19, 142, 212, 1);
+            .btnIcon1 {
+              background: url("/static/image/icon/hlservice.png");
+            }
           }
           .report {
             right: 10px;
+            .btnIcon2 {
+              background: url("/static/image/icon/report.png");
+            }
+          }
+          .report:hover {
+            color: rgba(19, 142, 212, 1);
+            .btnIcon2 {
+              background: url("/static/image/icon/hlreport.png");
+            }
           }
         }
       }
