@@ -94,9 +94,9 @@ gulp.task('server', function () {
   gulp.src('build')
     // 启动一个server 监听8000端口, 
     .pipe(webserver({
-      port: 9000,
+      port: 8009,
       // path: '/',
-      open: 'http://localhost:9000', //自动打开的网址,方便开发
+      open: 'http://localhost:8009', //自动打开的网址,方便开发
       livereload: true, //网页自动刷新
       open: true
     }));
