@@ -1,8 +1,7 @@
 .topNav {
   width: 100%;
   height: 36px;
-  background: #404040;
-  overflow: hidden; }
+  background: #404040; }
   .topNav .topNavPart {
     margin: 0 auto;
     width: 1130px;
@@ -14,9 +13,12 @@
       line-height: 36px;
       margin-right: 22px;
       color: #b7b7b7; }
+    .topNav .topNavPart .last {
+      color: white; }
     .topNav .topNavPart span:hover {
-      color: #ffffff; }
-    .topNav .topNavPart .profilePic {
+      color: #ffffff;
+      cursor: pointer; }
+    .topNav .topNavPart .mine .profilePic {
       position: absolute;
       right: 66px;
       top: 4px;
@@ -27,7 +29,7 @@
          -moz-border-radius: 50%;
               border-radius: 50%;
       line-height: 36px; }
-    .topNav .topNavPart .idName {
+    .topNav .topNavPart .mine .idName {
       position: absolute;
       right: 0;
       top: 0;
@@ -36,79 +38,139 @@
       overflow: hidden;
       -o-text-overflow: ellipsis;
          text-overflow: ellipsis;
-      white-space: nowrap; }
-  .topNav .myInfo {
-    width: 234px;
-    height: 284px;
-    background: url(/static/image/icon/myinfo.png);
-    position: absolute;
-    top: 23px;
-    right: 76px;
-    z-index: 1; }
-    .topNav .myInfo .myInfoTop {
-      width: 188px;
-      height: 48px;
-      border: 1px solid #e6e6e6;
-      margin: 26px; }
-      .topNav .myInfo .myInfoTop .profilePic {
-        width: 47px;
-        height: 47px;
-        -webkit-border-radius: 50%;
-           -moz-border-radius: 50%;
-                border-radius: 50%;
-        margin-right: 11px;
-        background: black; }
-      .topNav .myInfo .myInfoTop .profileLeft .idName {
-        font-size: 14px;
-        font-weight: 400;
-        color: #333333;
-        width: 60px;
-        overflow: hidden;
-        -o-text-overflow: ellipsis;
-           text-overflow: ellipsis;
-        white-space: nowrap;
-        position: absolute;
-        top: 26px;
-        left: 82px; }
-      .topNav .myInfo .myInfoTop .profileLeft .position {
-        font-size: 12px;
-        font-weight: 400;
-        color: #999999;
-        position: absolute;
-        top: 40px;
-        left: 82px; }
-      .topNav .myInfo .myInfoTop .profileLeft .profileLeftBottom .experience {
-        font-size: 12px;
-        font-family: MicrosoftYaHei;
-        font-weight: 400;
-        color: #999999;
-        position: absolute;
-        top: 55px;
-        left: 82px; }
-      .topNav .myInfo .myInfoTop .profileLeft .profileLeftBottom .wealth {
-        font-size: 12px;
-        font-family: MicrosoftYaHei;
-        font-weight: 400;
-        color: #999999;
-        position: absolute;
-        top: 55px;
-        left: 161px; }
-    .topNav .myInfo .myInfomiddle {
-      width: 196px;
-      height: 152px;
-      border: 1px solid black;
+      white-space: nowrap;
+      cursor: pointer; }
+    .topNav .topNavPart .mine .myInfo {
+      width: 234px;
+      height: 284px;
+      background: url(/static/image/icon/myinfo.png);
       position: absolute;
-      top: 93px;
-      left: 26px; }
-      .topNav .myInfo .myInfomiddle .btn {
-        width: 94px;
-        height: 32px;
-        background: #1684c2;
-        -webkit-border-radius: 6px;
-           -moz-border-radius: 6px;
-                border-radius: 6px;
-        float: left;
-        margin: 0 2px 7px 1px; }
+      top: 23px;
+      right: 15px;
+      z-index: 3;
+      display: none; }
+      .topNav .topNavPart .mine .myInfo .myInfoTop {
+        width: 188px;
+        height: 48px;
+        margin: 26px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profilePic {
+          width: 47px;
+          height: 47px;
+          -webkit-border-radius: 50%;
+             -moz-border-radius: 50%;
+                  border-radius: 50%;
+          background: black;
+          position: absolute;
+          left: 27px;
+          top: 28px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .idName {
+          font-size: 14px;
+          font-weight: 400;
+          color: #333333;
+          width: 60px;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+             text-overflow: ellipsis;
+          white-space: nowrap;
+          position: absolute;
+          top: 26px;
+          left: 82px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .position {
+          font-size: 12px;
+          font-weight: 400;
+          color: #999999;
+          position: absolute;
+          top: 43px;
+          left: 82px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .profileLeftBottom .experience {
+          font-size: 12px;
+          font-weight: 400;
+          color: #999999;
+          position: absolute;
+          top: 58px;
+          left: 82px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .profileLeftBottom .wealth {
+          font-size: 12px;
+          font-weight: 400;
+          color: #999999;
+          position: absolute;
+          top: 58px;
+          left: 161px; }
+      .topNav .topNavPart .mine .myInfo .myInfomiddle {
+        width: 202px;
+        height: 152px;
+        position: absolute;
+        top: 82px;
+        left: 24px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .hlbtn {
+          width: 94px;
+          height: 32px;
+          background: #1684c2;
+          color: white;
+          -webkit-border-radius: 6px;
+             -moz-border-radius: 6px;
+                  border-radius: 6px;
+          float: left;
+          margin: 0 6px 7px 1px;
+          line-height: 32px;
+          position: relative;
+          cursor: pointer;
+          padding-left: 43px;
+          font-size: 14px; }
+          .topNav .topNavPart .mine .myInfo .myInfomiddle .hlbtn .btnIcon {
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            left: 23px;
+            top: 1px; }
+          .topNav .topNavPart .mine .myInfo .myInfomiddle .hlbtn .msg {
+            width: 8px;
+            height: 8px;
+            background: #fd2f2f;
+            -webkit-border-radius: 50%;
+               -moz-border-radius: 50%;
+                    border-radius: 50%;
+            position: absolute;
+            top: -2px;
+            left: 89px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .btn {
+          width: 94px;
+          height: 32px;
+          line-height: 32px;
+          background: whitesmoke;
+          border: 1px solid #d5d5d5;
+          float: left;
+          margin: 0 6px 7px 1px;
+          cursor: pointer;
+          padding-left: 41px;
+          position: relative;
+          font-size: 14px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .btnIcon {
+          width: 16px;
+          height: 16px;
+          position: absolute;
+          left: 20px;
+          top: 2px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .btn:hover {
+          background: #e8e8e8; }
+      .topNav .topNavPart .mine .myInfo .myInfobottom {
+        position: absolute;
+        bottom: 0;
+        left: 12.7px;
+        font-size: 14px; }
+        .topNav .topNavPart .mine .myInfo .myInfobottom .bottomBtn {
+          float: left;
+          width: 110px;
+          height: 40px;
+          background: whitesmoke;
+          border: 1px solid #d5d5d5;
+          line-height: 40px;
+          text-align: center;
+          cursor: pointer; }
+        .topNav .topNavPart .mine .myInfo .myInfobottom .bottomBtn:hover {
+          background: #e8e8e8; }
+    .topNav .topNavPart .mine:hover .myInfo {
+      display: block !important; }
 
 header {
   width: 100%;
@@ -118,7 +180,8 @@ header {
     margin: 0 auto;
     width: 1130px;
     height: 116px;
-    background: white; }
+    background: white;
+    cursor: pointer; }
     header .nav .headPart {
       background: white; }
       header .nav .headPart .head {
@@ -149,6 +212,59 @@ header {
       line-height: 47px;
       float: left;
       margin: 0 37.5px; }
+    header .nav span:hover {
+      color: #0085d0; }
+    header .nav .sec {
+      position: relative; }
+      header .nav .sec .circle {
+        width: 4px;
+        height: 4px;
+        -webkit-border-radius: 50%;
+           -moz-border-radius: 50%;
+                border-radius: 50%;
+        background: #0085d0;
+        position: absolute;
+        top: 38px;
+        left: 158px;
+        display: none; }
+      header .nav .sec .section {
+        width: 880px;
+        height: 478px;
+        position: absolute;
+        top: 37px;
+        left: -12px;
+        background: url(/static/image/icon/windows2.png); }
+        header .nav .sec .section .inner {
+          width: 748px;
+          height: 375px;
+          border: 1px solid #d5d5d5;
+          position: absolute;
+          top: 60px;
+          left: 72px; }
+          header .nav .sec .section .inner .module1 {
+            width: 748px;
+            height: 60px; }
+            header .nav .sec .section .inner .module1 .series {
+              font-size: 18px;
+              font-weight: 400;
+              color: #0085d0; }
+            header .nav .sec .section .inner .module1 ul {
+              width: 647px;
+              height: 60px;
+              border: 1px solid #d5d5d5;
+              position: absolute;
+              top: 0;
+              right: 0; }
+              header .nav .sec .section .inner .module1 ul li {
+                float: left;
+                margin: 0px 0 12px 74px; }
+                header .nav .sec .section .inner .module1 ul li .circle {
+                  width: 6px;
+                  height: 6px;
+                  -webkit-border-radius: 50%;
+                     -moz-border-radius: 50%;
+                          border-radius: 50%;
+                  background: black; }
 
 .content {
   padding-top: 20px;
@@ -242,7 +358,8 @@ header {
                 -webkit-line-clamp: 2;
                 -webkit-box-orient: vertical;
                 color: #b2b2b2;
-                float: right; }
+                float: right;
+                cursor: pointer; }
               .content .conContainer .mainLeft ul li .liContainer .liContent .line2 {
                 margin-top: 14px;
                 overflow: hidden;
@@ -259,7 +376,8 @@ header {
                   -o-text-overflow: ellipsis;
                      text-overflow: ellipsis;
                   -webkit-line-clamp: 2;
-                  -webkit-box-orient: vertical; }
+                  -webkit-box-orient: vertical;
+                  cursor: pointer; }
               .content .conContainer .mainLeft ul li .liContainer .liContent .line3 {
                 overflow: hidden;
                 position: absolute;
@@ -270,7 +388,8 @@ header {
                   font-size: 16px;
                   font-weight: 400;
                   color: #777777;
-                  line-height: 21px; }
+                  line-height: 21px;
+                  cursor: pointer; }
               .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .liProPic {
                 width: 26px;
                 height: 26px;
@@ -279,7 +398,8 @@ header {
                    -moz-border-radius: 50%;
                         border-radius: 50%;
                 position: absolute;
-                bottom: 0; }
+                bottom: 0;
+                cursor: pointer; }
               .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .userId {
                 width: 70px;
                 height: 12px;
@@ -290,7 +410,8 @@ header {
                 line-height: 24px;
                 position: absolute;
                 bottom: 13px;
-                left: 33px; }
+                left: 33px;
+                cursor: pointer; }
               .content .conContainer .mainLeft ul li .liContainer .liContent .line4 .cornerContainer {
                 height: 14px;
                 position: absolute;
@@ -341,7 +462,8 @@ header {
           .content .conContainer .mainRight .myUpdate .post .postRight {
             text-align: center;
             line-height: 55px;
-            color: #ffffff; }
+            color: #ffffff;
+            cursor: pointer; }
         .content .conContainer .mainRight .myUpdate .checkInPart {
           margin: 10px 20px 10px 20px;
           width: 272px;
@@ -352,7 +474,8 @@ header {
             height: 55px;
             background: #138ed4;
             float: left;
-            padding-left: 36px; }
+            padding-left: 36px;
+            cursor: pointer; }
             .content .conContainer .mainRight .myUpdate .checkInPart .checkIn .checkInLeft {
               position: absolute;
               top: 17px;
@@ -492,7 +615,8 @@ header {
                 color: #666666;
                 line-height: 20px;
                 position: absolute;
-                top: 15px; }
+                top: 15px;
+                cursor: pointer; }
               .content .conContainer .mainRight .trendingPart .trending ul li .lsatLiContent {
                 background-image: -webkit-linear-gradient(top, #666666, #ffffff);
                 -webkit-background-clip: text;
@@ -524,7 +648,8 @@ header {
             font-size: 14px;
             font-weight: 400;
             color: #666666;
-            background: white; }
+            background: white;
+            cursor: pointer; }
           .content .conContainer .mainRight .sidebar .recommendModules .module:hover {
             background: #f7f7f7;
             color: #138ed4; }
@@ -538,7 +663,8 @@ header {
             font-weight: 400;
             color: #666666;
             border: 1px solid #e5e5e5;
-            position: relative; }
+            position: relative;
+            cursor: pointer; }
             .content .conContainer .mainRight .sidebar .recommendModules .module9 .arrow {
               width: 12px;
               height: 11px;
@@ -569,13 +695,15 @@ header {
             padding: 20px;
             position: absolute;
             top: 0;
-            right: 0; }
+            right: 0;
+            cursor: pointer; }
           .content .conContainer .mainRight .sidebar .activitiveUsers .refreshIcon {
             width: 12px;
             height: 14px;
             position: absolute;
             top: 23px;
-            right: 1px; }
+            right: 1px;
+            cursor: pointer; }
           .content .conContainer .mainRight .sidebar .activitiveUsers ul {
             list-style: none; }
             .content .conContainer .mainRight .sidebar .activitiveUsers ul li {
@@ -632,7 +760,10 @@ header {
                 font-weight: normal;
                 text-align: center;
                 line-height: 28px;
-                color: #333333; }
+                color: #333333;
+                cursor: pointer; }
+              .content .conContainer .mainRight .sidebar .activitiveUsers ul li .subscribe:hover {
+                color: #138ed4; }
         .content .conContainer .mainRight .sidebar .service {
           width: 270px;
           height: 135px;
@@ -674,6 +805,7 @@ header {
               top: 12px;
               left: 14px; }
           .content .conContainer .mainRight .sidebar .service .onlineServise {
+            cursor: pointer;
             left: 10px; }
             .content .conContainer .mainRight .sidebar .service .onlineServise .btnIcon1 {
               background: url("/static/image/icon/service.png"); }
@@ -682,6 +814,7 @@ header {
             .content .conContainer .mainRight .sidebar .service .onlineServise:hover .btnIcon1 {
               background: url("/static/image/icon/hlservice.png"); }
           .content .conContainer .mainRight .sidebar .service .report {
+            cursor: pointer;
             right: 10px; }
             .content .conContainer .mainRight .sidebar .service .report .btnIcon2 {
               background: url("/static/image/icon/report.png"); }
