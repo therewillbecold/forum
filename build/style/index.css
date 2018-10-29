@@ -240,31 +240,22 @@ header {
           border: 1px solid #d5d5d5;
           position: absolute;
           top: 60px;
-          left: 72px; }
-          header .nav .sec .section .inner .module1 {
-            width: 748px;
-            height: 60px; }
-            header .nav .sec .section .inner .module1 .series {
-              font-size: 18px;
-              font-weight: 400;
-              color: #0085d0; }
-            header .nav .sec .section .inner .module1 ul {
-              width: 647px;
-              height: 60px;
-              border: 1px solid #d5d5d5;
-              position: absolute;
-              top: 0;
-              right: 0; }
-              header .nav .sec .section .inner .module1 ul li {
-                float: left;
-                margin: 0px 0 12px 74px; }
-                header .nav .sec .section .inner .module1 ul li .circle {
-                  width: 6px;
-                  height: 6px;
-                  -webkit-border-radius: 50%;
-                     -moz-border-radius: 50%;
-                          border-radius: 50%;
-                  background: black; }
+          left: 72px;
+          overflow: hidden; }
+          header .nav .sec .section .inner .module {
+            overflow: hidden; }
+            header .nav .sec .section .inner .module .series {
+              float: left;
+              width: 20%;
+              height: 150px;
+              background-color: lightsalmon;
+              padding-bottom: 100%;
+              margin-bottom: -100%; }
+            header .nav .sec .section .inner .module .brands {
+              float: right;
+              width: 80%;
+              height: 400px;
+              background: black; }
 
 .content {
   padding-top: 20px;
