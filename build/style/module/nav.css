@@ -214,45 +214,5 @@ header {
       margin: 0 37.5px; }
     header .nav span:hover {
       color: #0085d0; }
-    header .nav .sec {
-      position: relative; }
-      header .nav .sec .circle {
-        width: 4px;
-        height: 4px;
-        -webkit-border-radius: 50%;
-           -moz-border-radius: 50%;
-                border-radius: 50%;
-        background: #0085d0;
-        position: absolute;
-        top: 38px;
-        left: 158px;
-        display: none; }
-      header .nav .sec .section {
-        width: 880px;
-        height: 478px;
-        position: absolute;
-        top: 37px;
-        left: -12px;
-        background: url(/static/image/icon/windows2.png); }
-        header .nav .sec .section .inner {
-          width: 748px;
-          height: 375px;
-          border: 1px solid #d5d5d5;
-          position: absolute;
-          top: 60px;
-          left: 72px;
-          overflow: hidden; }
-          header .nav .sec .section .inner .module {
-            overflow: hidden; }
-            header .nav .sec .section .inner .module .series {
-              float: left;
-              width: 20%;
-              height: 150px;
-              background-color: lightsalmon;
-              padding-bottom: 100%;
-              margin-bottom: -100%; }
-            header .nav .sec .section .inner .module .brands {
-              float: right;
-              width: 80%;
-              height: 400px;
-              background: black; }
+    header .nav span:hover .sec .circle {
+      display: block; }

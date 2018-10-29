@@ -214,6 +214,8 @@ header {
       margin: 0 37.5px; }
     header .nav span:hover {
       color: #0085d0; }
+    header .nav span:hover .sec .circle {
+      display: block; }
     header .nav .sec {
       position: relative; }
       header .nav .sec .circle {
@@ -229,13 +231,16 @@ header {
         display: none; }
       header .nav .sec .section {
         width: 880px;
-        height: 478px;
         position: absolute;
-        top: 37px;
+        top: 55px;
         left: -12px;
-        background: url(/static/image/icon/windows2.png); }
+        background: white;
+        z-index: 10;
+        overflow: hidden;
+        display: none; }
         header .nav .sec .section .inner {
           width: 748px;
+<<<<<<< HEAD:build/style/index.css
           height: 375px;
           border: 1px solid #d5d5d5;
           position: absolute;
@@ -249,13 +254,48 @@ header {
               width: 20%;
               height: 150px;
               background-color: lightsalmon;
+=======
+          position: relative;
+          top: 35px;
+          left: 70px; }
+          header .nav .sec .section .inner .module {
+            width: 748px;
+            overflow: hidden; }
+            header .nav .sec .section .inner .module .series {
+              font-size: 18px;
+              font-weight: 400;
+              color: #0085d0;
+              float: left;
+              width: 20%;
+>>>>>>> 81cbd2993fd79732ba22081f890ce2875e24627a:build/style/home/home.css
               padding-bottom: 100%;
               margin-bottom: -100%; }
             header .nav .sec .section .inner .module .brands {
               float: right;
               width: 80%;
+<<<<<<< HEAD:build/style/index.css
               height: 400px;
               background: black; }
+=======
+              border-bottom: 1px solid #eeeeee; }
+              header .nav .sec .section .inner .module .brands .brand {
+                float: left;
+                font-size: 18px;
+                font-weight: 400;
+                color: #333333;
+                padding: 8px 0 9px 44px;
+                position: relative; }
+                header .nav .sec .section .inner .module .brands .brand .brandCircle {
+                  width: 6px;
+                  height: 6px;
+                  -webkit-border-radius: 50%;
+                     -moz-border-radius: 50%;
+                          border-radius: 50%;
+                  background: #cacaca;
+                  position: absolute;
+                  top: 18px;
+                  left: 24px; }
+>>>>>>> 81cbd2993fd79732ba22081f890ce2875e24627a:build/style/home/home.css
 
 .content {
   padding-top: 20px;
