@@ -1,8 +1,14 @@
 @charset "UTF-8";
 .m-style {
-  position: relative;
+  width: 520px;
+  margin: 0 auto;
+  /* position: absolute;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0; */
   text-align: center;
-  zoom: 1;
+  /* zoom: 1; */
 }
 
 .m-style:before,
@@ -85,4 +91,7 @@ input {
   outline: none;
   color: #bdbdbd;
   font-size: 14px;
+}
+.m-style .jump-btn{
+  width:50px;
 }

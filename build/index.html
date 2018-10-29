@@ -111,38 +111,6 @@
                         <div class="circle"></div>
                         <div class="section">
                             <div class="inner">
-<<<<<<< HEAD
-                                <div class="module1 module">
-                                    <div class="series">A系列专区 ></div>
-                                    <div class="brands">
-                                        <div class="brand">
-                                            <div class="circle"></div>
-                                            <div class="text">中国移动A5</div>
-                                        </div>
-                                        <div class="brand">
-                                            <div class="circle"></div>
-                                            <div class="text">中国移动N3S</div>
-                                        </div>
-                                        <div class="brand">
-                                            <div class="circle"></div>
-                                            <div class="text">中国移动N3S</div>
-                                        </div>
-                                        <div class="brand">
-                                            <div class="circle"></div>
-                                            <div class="text">中国移动A5</div>
-                                        </div>
-                                        <div class="brand">
-                                            <div class="circle"></div>
-                                            <div class="text">中国移动A5</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="module2 module"></div>
-                                <div class="module3 module"></div>
-                                <div class="module4 module"></div>
-                                <div class="module5 module"></div>
-                                <div class="module6 module"></div>
-=======
                                 <div class="module">
                                     <div class="series">A系列专区 ></div>
                                     <div class="brands">
@@ -266,6 +234,27 @@
                                             <div class="brandCircle"></div>
                                             <div class="text">中国移动N3S</div>
                                         </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
+                                      
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="module">
@@ -283,9 +272,56 @@
                                             <div class="brandCircle"></div>
                                             <div class="text">中国移动N3S</div>
                                         </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动A5</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动A5</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动A5</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动A5</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
+                                        <div class="brand">
+                                            <div class="brandCircle"></div>
+                                            <div class="text">中国移动N3S</div>
+                                        </div>
                                     </div>
                                 </div>
->>>>>>> 81cbd2993fd79732ba22081f890ce2875e24627a
                             </div>
                         </div>
                     </div>
@@ -704,15 +740,27 @@
     <script src="/lib/jquery.js"></script>
     <script src="/lib/jquery.pagination.js"></script>
     <script>
+
+        window.onload = function () {
+            setPageWidth()
+        }
+        function setPageWidth () {
+            var total = 0
+            $('.m-style').children().each(function () {
+                let _w = $(this).outerWidth() + parseInt($(this).css('margin-left')) + parseInt($(this).css('margin-right'))
+                total += _w;
+            })
+            $('.m-style').width(total)
+        }
+
         $('.M-box3').pagination({
             pageCount: 100,
             jump: true,
-            coping: true,
-            homePage: '首',
-            endPage: '末',
-            prevContent: '<',
-            nextContent: '>',
+            coping: false,
+            prevContent: '&lt;',
+            nextContent: '&gt;',
             callback: function (api) {
+                setPageWidth()
                 console.log(api.getCurrent())
             }
         });

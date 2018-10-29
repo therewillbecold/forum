@@ -269,63 +269,6 @@ header {
         display: none;
         .inner {
           width: 748px;
-<<<<<<< HEAD:src/style/nav.scss
-          height: 375px;
-          border: 1px solid rgba(213, 213, 213, 1);
-          position: absolute;
-          top: 60px;
-          left: 72px;
-          overflow: hidden;
-          .module{
-            overflow: hidden;
-          .series {
-            float: left;
-            width: 20%;
-            height: 150px;
-            background-color: lightsalmon;
-            padding-bottom: 100%;
-            margin-bottom: -100%;
-        }
-          .brands{
-            float: right;
-            width:80%;
-            height: 400px;
-           background: black;
-          }
-        }
-
-          // .module1 {
-          //   width: 748px;
-          //   height: 60px;
-          //   .series {
-          //     font-size: 18px;
-          //     font-weight: 400;
-          //     color: rgba(0, 133, 208, 1);
-          //   }
-          //   ul {
-          //     width: 647px;
-          //     height: 60px;
-          //     border: 1px solid rgba(213, 213, 213, 1);
-          //     position: absolute;
-          //     top: 0;
-          //     right: 0;
-          //     li {
-          //       float: left;
-          //       margin: 0px 0 12px 74px;
-          //       .line1{
-
-          //       }
-          //       .circle{
-          //         width: 6px;
-          //         height: 6px;
-          //         border-radius: 50%;
-          //         background: black;
-
-          //       }
-          //     }
-          //   }
-          // }
-=======
           position: relative;
           top: 35px;
           left: 70px;
@@ -386,7 +329,6 @@ header {
             //   }
             // }
           }
->>>>>>> 81cbd2993fd79732ba22081f890ce2875e24627a:src/style/home/nav.scss
         }
       }
     }

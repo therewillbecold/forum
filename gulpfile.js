@@ -17,8 +17,9 @@ let isProduction = process.env.NODE_ENV === 'production' // 是否是线上发�
 gulp.task('copy', [], function () {
   gulp.src([
     './src/*.html',
-    './src/*.css',
-    './src/**/*.{jpg,jpeg,png,gif}'
+    './src/**/*.css',
+    './src/**/*.{jpg,jpeg,png,gif}',
+    './src/lib/**'
   ])
     .pipe(gulp.dest('./build'))
 })
@@ -31,7 +32,7 @@ gulp.task('sass', [], function () {
     autoprefixer({ browsers: ['cover 99.5%', 'ie 6-8'] }),
   ];
 
-  return gulp.src('./src/**/*.{scss,css}')
+  return gulp.src('./src/**/*{module,home}.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(plugins))
     .pipe(gulpif(isProduction, cleanCSS()))
