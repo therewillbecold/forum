@@ -1,0 +1,352 @@
+.topNav {
+  width: 100%;
+  height: 36px;
+  background: #404040; }
+  .topNav .topNavPart {
+    margin: 0 auto;
+    width: 1130px;
+    background: #404040;
+    position: relative; }
+    .topNav .topNavPart span {
+      float: left;
+      font-size: 14px;
+      line-height: 36px;
+      margin-right: 22px;
+      color: #b7b7b7; }
+    .topNav .topNavPart .last {
+      color: white; }
+    .topNav .topNavPart span:hover {
+      color: #ffffff;
+      cursor: pointer; }
+    .topNav .topNavPart .mine .profilePic {
+      position: absolute;
+      right: 66px;
+      top: 4px;
+      background-color: white;
+      width: 28px;
+      height: 28px;
+      -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+              border-radius: 50%;
+      line-height: 36px; }
+    .topNav .topNavPart .mine .idName {
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 0;
+      width: 60px;
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+         text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer; }
+    .topNav .topNavPart .mine .myInfo {
+      width: 234px;
+      height: 284px;
+      background: url(/static/image/icon/myinfo.png);
+      position: absolute;
+      top: 23px;
+      right: 15px;
+      z-index: 3;
+      display: none; }
+      .topNav .topNavPart .mine .myInfo .myInfoTop {
+        width: 188px;
+        height: 48px;
+        margin: 26px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profilePic {
+          width: 47px;
+          height: 47px;
+          -webkit-border-radius: 50%;
+             -moz-border-radius: 50%;
+                  border-radius: 50%;
+          background: black;
+          position: absolute;
+          left: 27px;
+          top: 28px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .idName {
+          font-size: 14px;
+          font-weight: 400;
+          color: #333333;
+          width: 60px;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+             text-overflow: ellipsis;
+          white-space: nowrap;
+          position: absolute;
+          top: 26px;
+          left: 82px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .position {
+          font-size: 12px;
+          font-weight: 400;
+          color: #999999;
+          position: absolute;
+          top: 43px;
+          left: 82px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .profileLeftBottom .experience {
+          font-size: 12px;
+          font-weight: 400;
+          color: #999999;
+          position: absolute;
+          top: 58px;
+          left: 82px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .profileLeftBottom .wealth {
+          font-size: 12px;
+          font-weight: 400;
+          color: #999999;
+          position: absolute;
+          top: 58px;
+          left: 161px; }
+      .topNav .topNavPart .mine .myInfo .myInfomiddle {
+        width: 202px;
+        height: 152px;
+        position: absolute;
+        top: 82px;
+        left: 24px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .hlbtn {
+          width: 94px;
+          height: 32px;
+          background: #1684c2;
+          color: white;
+          -webkit-border-radius: 6px;
+             -moz-border-radius: 6px;
+                  border-radius: 6px;
+          float: left;
+          margin: 0 6px 7px 1px;
+          line-height: 32px;
+          position: relative;
+          cursor: pointer;
+          padding-left: 43px;
+          font-size: 14px; }
+          .topNav .topNavPart .mine .myInfo .myInfomiddle .hlbtn .btnIcon {
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            left: 23px;
+            top: 1px; }
+          .topNav .topNavPart .mine .myInfo .myInfomiddle .hlbtn .msg {
+            width: 8px;
+            height: 8px;
+            background: #fd2f2f;
+            -webkit-border-radius: 50%;
+               -moz-border-radius: 50%;
+                    border-radius: 50%;
+            position: absolute;
+            top: -2px;
+            left: 89px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .btn {
+          width: 94px;
+          height: 32px;
+          line-height: 32px;
+          background: whitesmoke;
+          border: 1px solid #d5d5d5;
+          float: left;
+          margin: 0 6px 7px 1px;
+          cursor: pointer;
+          padding-left: 41px;
+          position: relative;
+          font-size: 14px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .btnIcon {
+          width: 16px;
+          height: 16px;
+          position: absolute;
+          left: 20px;
+          top: 2px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .btn:hover {
+          background: #e8e8e8; }
+      .topNav .topNavPart .mine .myInfo .myInfobottom {
+        position: absolute;
+        bottom: 0;
+        left: 12.7px;
+        font-size: 14px; }
+        .topNav .topNavPart .mine .myInfo .myInfobottom .bottomBtn {
+          float: left;
+          width: 110px;
+          height: 40px;
+          background: whitesmoke;
+          border: 1px solid #d5d5d5;
+          line-height: 40px;
+          text-align: center;
+          cursor: pointer; }
+        .topNav .topNavPart .mine .myInfo .myInfobottom .bottomBtn:hover {
+          background: #e8e8e8; }
+    .topNav .topNavPart .mine:hover .myInfo {
+      display: block !important; }
+
+header {
+  width: 100%;
+  height: 116px;
+  background: white; }
+  header .nav {
+    margin: 0 auto;
+    width: 1130px;
+    height: 116px;
+    background: white;
+    cursor: pointer; }
+    header .nav .headPart {
+      background: white; }
+      header .nav .headPart .head {
+        width: 1130px;
+        height: 68px;
+        background: white;
+        position: relative;
+        border-bottom: 1px solid #e6e6e6; }
+        header .nav .headPart .head .logo {
+          width: 120px;
+          height: 37px;
+          position: absolute;
+          left: 0;
+          top: 22px; }
+        header .nav .headPart .head .title {
+          width: 114px;
+          height: 25px;
+          position: absolute;
+          left: 159px;
+          top: 24px;
+          padding-left: 16px;
+          margin-left: -22px;
+          border-left: 1px solid #e6e6e6; }
+    header .nav .mainNav {
+      height: 47px;
+      background: white; }
+    header .nav span {
+      line-height: 47px;
+      float: left;
+      margin: 0 37.5px; }
+    header .nav span:hover {
+      color: #0085d0; }
+    header .nav span:hover .sec .circle {
+      display: block; }
+    header .nav .sec {
+      position: relative; }
+      header .nav .sec .circle {
+        width: 4px;
+        height: 4px;
+        -webkit-border-radius: 50%;
+           -moz-border-radius: 50%;
+                border-radius: 50%;
+        background: #0085d0;
+        position: absolute;
+        top: 38px;
+        left: 158px;
+        display: none; }
+      header .nav .sec .section {
+        width: 880px;
+        position: absolute;
+        top: 55px;
+        left: -12px;
+        background: white;
+        z-index: 10;
+        overflow: hidden;
+        display: none; }
+        header .nav .sec .section .inner {
+          width: 748px;
+          position: relative;
+          top: 35px;
+          left: 70px; }
+          header .nav .sec .section .inner .module {
+            width: 748px;
+            overflow: hidden; }
+            header .nav .sec .section .inner .module .series {
+              font-size: 18px;
+              font-weight: 400;
+              color: #0085d0;
+              float: left;
+              width: 20%;
+              padding-bottom: 100%;
+              margin-bottom: -100%; }
+            header .nav .sec .section .inner .module .brands {
+              float: right;
+              width: 80%;
+              border-bottom: 1px solid #eeeeee; }
+              header .nav .sec .section .inner .module .brands .brand {
+                float: left;
+                font-size: 18px;
+                font-weight: 400;
+                color: #333333;
+                padding: 8px 0 9px 44px;
+                position: relative; }
+                header .nav .sec .section .inner .module .brands .brand .brandCircle {
+                  width: 6px;
+                  height: 6px;
+                  -webkit-border-radius: 50%;
+                     -moz-border-radius: 50%;
+                          border-radius: 50%;
+                  background: #cacaca;
+                  position: absolute;
+                  top: 18px;
+                  left: 24px; }
+
+.footer {
+  width: 100%;
+  height: 179px;
+  margin-top: 40px;
+  background: white;
+  padding-top: 20px; }
+  .footer .footerCommon {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center; }
+  .footer .footerNav {
+    width: 1130px;
+    height: 30px;
+    margin: 0 auto; }
+    .footer .footerNav ul {
+      margin: 0 auto;
+      width: 816px;
+      height: 30px; }
+      .footer .footerNav ul li {
+        float: left;
+        height: 30px;
+        cursor: pointer; }
+        .footer .footerNav ul li a {
+          border-right: 1px solid #cccccc;
+          text-decoration: none;
+          -webkit-transition: all 0.2s ease;
+          -o-transition: all 0.2s ease;
+          -moz-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+          color: #666;
+          font-size: 12px;
+          padding: 0 5px;
+          line-height: 30px; }
+        .footer .footerNav ul li .last {
+          border: none; }
+      .footer .footerNav ul li:hover a {
+        color: #337ab7; }
+  .footer .info a {
+    color: #666; }
+  .footer .info a:hover {
+    color: #337ab7;
+    cursor: pointer; }
+
+.videoModule {
+  width: 1130px;
+  height: 464px;
+  border: 1px solid #000; }
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7; }
+
+.typeArea {
+  margin: 0 auto;
+  width: 1130px;
+  overflow: hidden; }
