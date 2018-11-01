@@ -1,0 +1,30 @@
+@import "./nav.scss";
+@import "./footer.scss";
+@import "./creativityContent.scss";
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei",
+    sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+}
+.typeArea {
+  margin: 0 auto;
+  width: 1130px;
+  overflow: hidden;
+}
