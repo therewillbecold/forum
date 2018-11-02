@@ -208,10 +208,12 @@ header {
     header .nav .mainNav {
       height: 47px;
       background: white; }
-    header .nav span {
-      line-height: 47px;
-      float: left;
-      margin: 0 37.5px; }
+    header .nav a {
+      color: #333333; }
+      header .nav a span {
+        line-height: 47px;
+        float: left;
+        margin: 0 37.5px; }
     header .nav span:hover {
       color: #0085d0; }
     header .nav span:hover .sec .circle {
@@ -323,7 +325,8 @@ header {
 .carousel {
   width: 1130px;
   height: 390px;
-  background: teal; }
+  background: teal;
+  margin-top: 20px; }
 
 .modules {
   width: 1130px;

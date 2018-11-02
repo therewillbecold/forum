@@ -1,8 +1,9 @@
 .carousel {
-    width: 1130px;
-    height: 390px;
-    background: teal;
-  }
+  width: 1130px;
+  height: 390px;
+  background: teal;
+  margin-top: 20px;
+}
 .modules {
   width: 1130px;
   height: 454px;
@@ -172,6 +173,58 @@
           line-height: 24px;
           text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.8);
         }
+      }
+    }
+  }
+}
+.modulesLeftRight {
+  width: 1130px;
+  height: 495px;
+  margin-top: 40px;
+  .title {
+    position: relative;
+    width: 542px;
+    height: 44px;
+    float: left;
+    margin-left: 23px;
+    .blue {
+      width: 6px;
+      height: 24px;
+      background: rgba(50, 125, 209, 1);
+      position: absolute;
+    }
+    .text {
+      position: absolute;
+      top: -5px;
+      left: 16px;
+      font-size: 24px;
+      font-weight: 400;
+      color: #333333;
+    }
+    .checkMore {
+      position: absolute;
+      top: 22px;
+      right: 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(153, 153, 153, 1);
+      cursor: pointer;
+    }
+  }
+  .moduleInner {
+    position: relative;
+    width: 1130px;
+    height: 450px;
+    .module {
+      width: 544px;
+      height: 450px;
+      border: 1px solid #e6e6e6;
+      float: left;
+      margin-left: 20px;
+      .proPic {
+        width: 544px;
+        height: 260px;
+        border: 1px solid #000;
       }
     }
   }
