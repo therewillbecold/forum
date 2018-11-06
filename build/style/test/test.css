@@ -1,0 +1,113 @@
+.forFree {
+  width: 1130px;
+  height: 340px;
+  border: 1px solid #000;
+  margin-top: 20px; }
+  .forFree .pic {
+    width: 740px;
+    height: 340px;
+    border: 1px solid #000;
+    float: left; }
+  .forFree .info {
+    width: 388px;
+    height: 340px;
+    border: 1px solid #000;
+    float: left;
+    background: white; }
+    .forFree .info .title {
+      width: 350px;
+      height: 57px;
+      font-size: 18px;
+      font-weight: 400;
+      color: #333333;
+      line-height: 57px;
+      text-align: center;
+      margin: 0 20px 0 20px;
+      border-bottom: 1px solid #e6e6e6; }
+    .forFree .info .updateInfo {
+      width: 350px;
+      height: 172px; }
+      .forFree .info .updateInfo .infoLeft {
+        border: 1px solid #000;
+        width: 198px;
+        height: 172px;
+        font-size: 14px;
+        color: #999999;
+        padding-top: 66px;
+        float: left;
+        margin-left: 20px; }
+        .forFree .info .updateInfo .infoLeft .updateInfo {
+          border: 1px solid #000;
+          font-weight: 400;
+          line-height: 22px; }
+        .forFree .info .updateInfo .infoLeft b {
+          color: #333333; }
+      .forFree .info .updateInfo .infoRight {
+        width: 132px;
+        height: 76px;
+        float: left;
+        margin-top: 66px; }
+        .forFree .info .updateInfo .infoRight .num {
+          width: 168px;
+          font-size: 36px;
+          font-family: Impact;
+          font-weight: 400;
+          color: #1ea7f4;
+          line-height: 22px;
+          text-align: center; }
+        .forFree .info .updateInfo .infoRight .text {
+          width: 168px;
+          font-size: 14px;
+          font-weight: 400;
+          color: #999999;
+          line-height: 40px;
+          text-align: center; }
+    .forFree .info .timing {
+      width: 350px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #999999;
+      line-height: 22px;
+      margin-left: 20px; }
+    .forFree .info b {
+      font-size: 24px;
+      font-weight: 400;
+      color: #333333;
+      line-height: 22px; }
+    .forFree .info .checkDetail {
+      width: 120px;
+      height: 42px;
+      background: #1ea7f4;
+      -webkit-border-radius: 4px;
+         -moz-border-radius: 4px;
+              border-radius: 4px;
+      text-align: center;
+      line-height: 42px;
+      margin-top: 28px;
+      margin-left: 135px; }
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: #f7f7f7; }
+
+.typeArea {
+  margin: 0 auto;
+  width: 1130px;
+  overflow: hidden; }

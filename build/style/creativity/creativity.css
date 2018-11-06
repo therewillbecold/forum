@@ -331,7 +331,8 @@ header {
 .modules {
   width: 1130px;
   height: 454px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
   .modules .title {
     position: relative;
     width: 1130px;
@@ -533,8 +534,7 @@ header {
         width: 60px;
         height: 36px;
         background: black;
-        top: 56px;
-        left: 10px; }
+        top: 56px; }
       .modulesLeftRight .moduleInner .module .proPic {
         width: 544px;
         height: 260px;
@@ -562,6 +562,8 @@ header {
         text-align: center;
         line-height: 34px;
         left: 196px; }
+    .modulesLeftRight .moduleInner .leftModule .leftUpdate {
+      left: 10px; }
     .modulesLeftRight .moduleInner .leftModule .leftVote {
       left: 196px; }
     .modulesLeftRight .moduleInner .leftModule .radioBtn {
@@ -578,6 +580,8 @@ header {
         width: 156px;
         height: 24px;
         background: #f63756; }
+    .modulesLeftRight .moduleInner .rightModule .rightUpdate {
+      left: 575px; }
     .modulesLeftRight .moduleInner .rightModule .rightVote {
       left: 778px; }
     .modulesLeftRight .moduleInner .rightModule .radioBtn {
@@ -590,6 +594,87 @@ header {
         float: left;
         width: 18px;
         height: 22px; }
+
+.modulesOne {
+  width: 1130px;
+  height: 495px;
+  margin-top: 40px; }
+  .modulesOne .title {
+    position: relative;
+    width: 542px;
+    height: 44px;
+    float: left;
+    margin-left: 23px; }
+    .modulesOne .title .blue {
+      width: 6px;
+      height: 24px;
+      background: #327dd1;
+      position: absolute; }
+    .modulesOne .title .text {
+      position: absolute;
+      top: -5px;
+      left: 16px;
+      font-size: 24px;
+      font-weight: 400;
+      color: #333333; }
+    .modulesOne .title .checkMore {
+      position: absolute;
+      top: 22px;
+      right: 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: #999999;
+      cursor: pointer; }
+  .modulesOne .moduleInner {
+    position: relative;
+    width: 1130px;
+    height: 450px; }
+    .modulesOne .moduleInner .module {
+      width: 544px;
+      height: 450px;
+      border: 1px solid #e6e6e6;
+      float: left;
+      margin-left: 20px; }
+      .modulesOne .moduleInner .module .update {
+        position: absolute;
+        width: 60px;
+        height: 36px;
+        background: black;
+        top: 56px; }
+      .modulesOne .moduleInner .module .proPic {
+        width: 544px;
+        height: 260px;
+        border: 1px solid #000; }
+      .modulesOne .moduleInner .module .aboutUs {
+        font-size: 18px;
+        font-weight: 400;
+        color: #333333;
+        margin-top: 20px;
+        margin-left: 27px;
+        margin: 20px 0 0 20px; }
+      .modulesOne .moduleInner .module .detail {
+        width: 470px;
+        height: 36px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #666666;
+        margin-left: 20px;
+        margin-top: 30px; }
+      .modulesOne .moduleInner .module .person {
+        width: 98px;
+        height: 13px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #666666;
+        margin: 30px 0 0 20px; }
+    .modulesOne .moduleInner .leftModule .leftUpdate {
+      left: 10px; }
+    .modulesOne .moduleInner .leftModule .leftVote {
+      left: 196px; }
+    .modulesOne .moduleInner .rightModule .rightUpdate {
+      left: 575px; }
+    .modulesOne .moduleInner .rightModule .rightVote {
+      left: 778px; }
 
 * {
   -webkit-box-sizing: border-box;
