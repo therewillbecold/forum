@@ -131,9 +131,9 @@
                 <div class="mainNav">
                     <a href=""> <span class="first">首页</span></a>
                     <div class="sec">
-                        <a href=""> <span>版块</span></a>
+                        <a href=""> <span class="module" id="module">版块</span></a>
                         <div class="circle"></div>
-                        <div class="section">
+                        <div class="section moduleSlide">
                             <div class="inner">
                                 <div class="module">
                                     <a href="">
@@ -564,6 +564,7 @@
     </div>
     <script src="/lib/jquery.js"></script>
     <script src="/lib/jquery.pagination.js"></script>
+    <script src="/commonjs/module-slide.js"></script>
     <script>
 
         window.onload = function () {
@@ -589,6 +590,7 @@
                 console.log(api.getCurrent())
             }
         });
+
     </script>
 </body>
 
