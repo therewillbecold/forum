@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/home/iframe-news.css">
+    <link rel="stylesheet" href="/lib/pagination.css">
+</head>
+<body>
+    <div class="mainLeft">
+        <ul>
+            <li>
+                <div class="liContainer">
+                    <a href="">
+                        <div class="liPic">
+                            <img src="" alt="">
+                        </div>
+                    </a>
+
+                    <div class="liContent">
+                        <div class="line1">
+                            <div class="left">
+                                <span class="tag">壁纸壁纸壁纸壁纸壁纸</span>
+                                <span class="time">12小时前</span>
+                            </div>
+
+                            <a href="">
+                                <span class="shareIcon">
+                                    <img src="/static/image/icon/share.png" alt="">
+                                </span>
+                            </a>
+                            <a href=""> <span class="share">分享</span></a>
+                        </div>
+                        <div class="line2">
+                            <p>百度外卖更名为「饿了么星选」；马云拟在印尼设立「马云企业家研究所」；滴滴美团称在 ... 万辆违规网约车</p>
+                        </div>
+                        <div class="line3">
+                            <p>阿里巴巴称 Paytm 计划收购 UC 印度业务传闻不属实；亚马逊申请新专利，可读取用户情绪发定向广告；9
+                                月手机品牌全球出货量排行：苹果超华为重回全球第二；HTC 区块链手机 EXODUS 将于 10 月 22 日发布。</p>
+                        </div>
+                        <div class="line4">
+                            <div class="liProPic">
+                                <a href="">
+                                    <img src="" alt="">
+                                </a>
+                            </div>
+                            <div class="userId">谁是大英雄</div>
+                            <div class="cornerContainer">
+                                <a href=""><span class="readIcon icon"> <img src="/static/image/icon/eyes.png"
+                                            alt=""></span></a>
+                                <a href=""><span class="read icon">32484</span></a>
+                                <a href=""><span class="commentsIcon icon"> <img src="/static/image/icon/comment.png"
+                                            alt=""></span></a>
+                                <a href="">
+                                    <span class="comments icon">4837</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="pagination">
+            <div class="M-box3 m-style"></div>
+        </div>
+    </div>
+    <script src="/lib/jquery.js"></script>
+    <script src="/lib/jquery.pagination.js"></script>
+    <script>
+
+        window.onload = function () {
+            setPageWidth()
+        }
+        function setPageWidth() {
+            var total = 0
+            $('.m-style').children().each(function () {
+                let _w = $(this).outerWidth() + parseInt($(this).css('margin-left')) + parseInt($(this).css('margin-right'))
+                total += _w;
+            })
+            $('.m-style').width(total)
+        }
+
+        $('.M-box3').pagination({
+            pageCount: 100,
+            jump: true,
+            coping: false,
+            prevContent: '&lt;',
+            nextContent: '&gt;',
+            callback: function (api) {
+                setPageWidth()
+                var curPageNo = api.getCurrent()
+                // window.location = ''
+            }
+        });
+
+    </script>
+</body>
+</html>

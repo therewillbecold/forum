@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.mainLeft {
+  width: 780px;
+  height: 1680px;
+  background: white;
+  border: 1px solid #e6e6e6;
+  margin-right: 38px;
+  float: left; }
+  .mainLeft ul {
+    list-style: none; }
+    .mainLeft ul li {
+      width: 780px;
+      height: 260px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+         -moz-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .mainLeft ul li .liContainer {
+        width: 740px;
+        padding-bottom: 20px;
+        height: 240px;
+        border-bottom: 1px solid #e6e6e6; }
+        .mainLeft ul li .liContainer .liPic {
+          width: 290px;
+          height: 220px;
+          float: left;
+          background: black; }
+        .mainLeft ul li .liContainer .liContent {
+          width: 430px;
+          height: 220px;
+          float: right;
+          position: relative; }
+          .mainLeft ul li .liContainer .liContent .left {
+            font-size: 14px;
+            text-align: center;
+            padding: 6px;
+            position: absolute;
+            top: 0; }
+          .mainLeft ul li .liContainer .liContent .tag {
+            max-width: 250px;
+            display: inline-block;
+            color: #327dd1;
+            margin-right: 13px;
+            text-align: center;
+            padding: 6px;
+            background: #ccdef3;
+            overflow: hidden;
+            -o-text-overflow: ellipsis;
+               text-overflow: ellipsis;
+            white-space: nowrap; }
+          .mainLeft ul li .liContainer .liContent .time {
+            right: -50px;
+            display: block;
+            position: absolute;
+            top: 10px; }
+          .mainLeft ul li .liContainer .liContent .shareIcon {
+            width: 14px;
+            height: 14px;
+            position: absolute;
+            top: 3px;
+            right: 34px; }
+          .mainLeft ul li .liContainer .liContent .share {
+            font-size: 14px;
+            font-weight: 400;
+            display: -webkit-box;
+            overflow: hidden;
+            -o-text-overflow: ellipsis;
+               text-overflow: ellipsis;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            color: #b2b2b2;
+            float: right;
+            cursor: pointer; }
+          .mainLeft ul li .liContainer .liContent .line2 {
+            margin-top: 14px;
+            overflow: hidden;
+            position: absolute;
+            top: 22px; }
+            .mainLeft ul li .liContainer .liContent .line2 p {
+              width: 420px;
+              height: 50px;
+              font-size: 20px;
+              font-weight: 400;
+              color: #333333;
+              display: -webkit-box;
+              overflow: hidden;
+              -o-text-overflow: ellipsis;
+                 text-overflow: ellipsis;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              cursor: pointer; }
+          .mainLeft ul li .liContainer .liContent .line3 {
+            overflow: hidden;
+            position: absolute;
+            top: 99px; }
+            .mainLeft ul li .liContainer .liContent .line3 p {
+              width: 430px;
+              height: 64px;
+              font-size: 16px;
+              font-weight: 400;
+              color: #777777;
+              line-height: 21px;
+              cursor: pointer; }
+          .mainLeft ul li .liContainer .liContent .line4 .liProPic {
+            width: 26px;
+            height: 26px;
+            background: black;
+            -webkit-border-radius: 50%;
+               -moz-border-radius: 50%;
+                    border-radius: 50%;
+            position: absolute;
+            bottom: 0;
+            cursor: pointer; }
+          .mainLeft ul li .liContainer .liContent .line4 .userId {
+            width: 70px;
+            height: 12px;
+            font-size: 14px;
+            font-family: MicrosoftYaHei;
+            font-weight: 400;
+            color: #777777;
+            line-height: 24px;
+            position: absolute;
+            bottom: 13px;
+            left: 33px;
+            cursor: pointer; }
+          .mainLeft ul li .liContainer .liContent .line4 .cornerContainer {
+            height: 14px;
+            position: absolute;
+            bottom: 10px;
+            right: 0; }
+            .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .icon {
+              display: inline-block; }
+            .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .readIcon {
+              width: 16px;
+              height: 10px;
+              margin-left: 6px; }
+            .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .read {
+              font-size: 12px;
+              font-weight: 400;
+              color: #666666;
+              margin-left: 6px; }
+            .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .commentsIcon {
+              width: 14px;
+              height: 12px;
+              margin-left: 6px; }
+            .mainLeft ul li .liContainer .liContent .line4 .cornerContainer .comments {
+              font-size: 12px;
+              color: #666666;
+              margin-left: 6px; }
+  .mainLeft .pagination {
+    width: 100%;
+    height: 28px;
+    margin: 0 auto;
+    margin-top: 37px;
+    position: relative; }

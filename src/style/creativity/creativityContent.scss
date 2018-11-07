@@ -8,6 +8,7 @@
   width: 1130px;
   height: 454px;
   margin-top: 40px;
+  margin-bottom:40px;
   .title {
     position: relative;
     width: 1130px;
@@ -221,10 +222,187 @@
       border: 1px solid #e6e6e6;
       float: left;
       margin-left: 20px;
+      .update {
+        position: absolute;
+        width: 60px;
+        height: 36px;
+        background: black;
+        top: 56px;
+      }
       .proPic {
         width: 544px;
         height: 260px;
         border: 1px solid #000;
+      }
+      .question {
+        font-size: 18px;
+        font-weight: 400;
+        color: #333333;
+        margin-top: 20px;
+        margin-left: 27px;
+        margin: 20px 0 14px 28px;
+      }
+      .vote {
+        width: 130px;
+        height: 34px;
+        background: rgba(30, 167, 244, 1);
+        border-radius: 4px;
+        position: absolute;
+        bottom: -30px;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+        text-shadow: 0px 1px 2px rgba(50, 141, 192, 0.8);
+        text-align: center;
+        line-height: 34px;
+        left: 196px;
+      }
+    }
+    .leftModule {
+      .leftUpdate {
+        left: 10px;
+      }
+      .leftVote {
+        left: 196px;
+      }
+      .radioBtn {
+        float: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        label {
+          float: right;
+        }
+        input {
+          float: left;
+          width: 18px;
+          height: 22px;
+        }
+        .ratio {
+          width: 156px;
+          height: 24px;
+          background: rgba(246, 55, 86, 1);
+        }
+      }
+    }
+    .rightModule {
+      .rightUpdate {
+        left: 575px;
+      }
+      .rightVote {
+        left: 778px;
+      }
+      .radioBtn {
+        float: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        label {
+          float: right;
+        }
+        input {
+          float: left;
+          width: 18px;
+          height: 22px;
+        }
+      }
+    }
+  }
+}
+.modulesOne {
+  width: 1130px;
+  height: 495px;
+  margin-top: 40px;
+  .title {
+    position: relative;
+    width: 542px;
+    height: 44px;
+    float: left;
+    margin-left: 23px;
+    .blue {
+      width: 6px;
+      height: 24px;
+      background: rgba(50, 125, 209, 1);
+      position: absolute;
+    }
+    .text {
+      position: absolute;
+      top: -5px;
+      left: 16px;
+      font-size: 24px;
+      font-weight: 400;
+      color: #333333;
+    }
+    .checkMore {
+      position: absolute;
+      top: 22px;
+      right: 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(153, 153, 153, 1);
+      cursor: pointer;
+    }
+  }
+  .moduleInner {
+    position: relative;
+    width: 1130px;
+    height: 450px;
+    .module {
+      width: 544px;
+      height: 450px;
+      border: 1px solid #e6e6e6;
+      float: left;
+      margin-left: 20px;
+      .update {
+        position: absolute;
+        width: 60px;
+        height: 36px;
+        background: black;
+        top: 56px;
+      }
+      .proPic {
+        width: 544px;
+        height: 260px;
+        border: 1px solid #000;
+      }
+      .aboutUs {
+        font-size: 18px;
+        font-weight: 400;
+        color: #333333;
+        margin-top: 20px;
+        margin-left: 27px;
+        margin: 20px 0 0 20px;
+      }
+      .detail {
+        width: 470px;
+        height: 36px;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(102, 102, 102, 1);
+        margin-left: 20px;
+        margin-top: 30px;
+      }
+      .person {
+        width: 98px;
+        height: 13px;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(102, 102, 102, 1);
+        margin: 30px 0 0 20px;
+      }
+    }
+    .leftModule {
+      .leftUpdate {
+        left: 10px;
+      }
+      .leftVote {
+        left: 196px;
+      }
+    }
+    .rightModule {
+      .rightUpdate {
+        left: 575px;
+      }
+      .rightVote {
+        left: 778px;
       }
     }
   }
