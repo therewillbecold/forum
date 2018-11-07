@@ -232,84 +232,111 @@ header {
     .mainNav {
       height: 47px;
       background: rgba(255, 255, 255, 1);
-    }
-    a {
-      color:rgba(51,51,51,1);
-      span {
-        line-height: 47px;
-        float: left;
-        margin: 0 37.5px;
-      }
-    }
-    span:hover {
-      color: rgba(0, 133, 208, 1);
-    }
-    span:hover .sec .circle {
-      display: block;
-    }
-    .sec {
-      position: relative;
-      .circle {
-        width: 4px;
-        height: 4px;
-        border-radius: 50%;
-        background: rgba(0, 133, 208, 1);
-        position: absolute;
-        top: 38px;
-        left: 158px;
-        display: none;
-      }
-      .section {
-        width: 880px;
-        // height: 478px;
-        position: absolute;
-        top: 55px;
-        left: -12px;
-        // background: url(/static/image/icon/windows2.png);
-        background: white;
-        z-index: 10;
-        overflow: hidden;
-        display: none;
-        .inner {
-          width: 748px;
+      ul {
+        list-style: none;
+        .nav_item {
+          float: left;
+          padding: 0 37.5px;
           position: relative;
-          top: 35px;
-          left: 70px;
-          .module {
-            width: 748px;
-            overflow: hidden;
-            .series {
-              font-size: 18px;
-              font-weight: 400;
-              color: rgba(0, 133, 208, 1);
-              float: left;
-              width: 20%;
-              padding-bottom: 100%;
-              margin-bottom: -100%;
-            }
-            .brands {
-              float: right;
-              width: 80%;
-              border-bottom: 1px solid rgba(238, 238, 238, 1);
-              .brand {
-                float: left;
-                font-size: 18px;
-                font-weight: 400;
-                color: rgba(51, 51, 51, 1);
-                padding: 8px 0 9px 44px;
-                position: relative;
-                .brandCircle {
-                  width: 6px;
-                  height: 6px;
-                  border-radius: 50%;
-                  background: rgba(202, 202, 202, 1);
-                  position: absolute;
-                  top: 18px;
-                  left: 24px;
+          a {
+            color: rgba(51, 51, 51, 1);
+            line-height: 47px;
+          }
+          .hl_nav_item {
+            color: rgba(0, 133, 208, 1);
+          }
+          a:hover {
+            color: rgba(0, 133, 208, 1);
+          }
+        }
+        .nav_item3 {
+          .hl_circle {
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: #0085d0;
+            position: absolute;
+            top: 39px;
+            left: 51px;
+          }
+        }
+        .nav_module {
+          position: relative;
+          .nav_module_circle {
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: #0085d0;
+            position: absolute;
+            top: 39px;
+            left: 51px;
+            display: none;
+          }
+          .dropdown {
+            width: 880px;
+            position: absolute;
+            left: -107px;
+            top: 48px;
+            padding-top: 9px;
+            display: none;
+            .section {
+              width: 880px;
+              background: white;
+              position: absolute;
+              padding: 56px 73px 46px 43px;
+              z-index: 1;
+              .inner {
+                width: 748px;
+                .module {
+                  width: 748px;
+                  float: left;
+                  .series {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: rgba(0, 133, 208, 1);
+                    float: left;
+                    width: 20%;
+                    padding-bottom: 100%;
+                    margin-bottom: -100%;
+                  }
+                  .brands {
+                    float: right;
+                    width: 80%;
+                    border-bottom: 1px solid rgba(238, 238, 238, 1);
+                    .brand {
+                      float: left;
+                      font-size: 18px;
+                      font-weight: 400;
+                      color: rgba(51, 51, 51, 1);
+                      padding: 8px 0 9px 44px;
+                      position: relative;
+                      .brandCircle {
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 50%;
+                        background: rgba(202, 202, 202, 1);
+                        position: absolute;
+                        top: 27px;
+                        left: 24px;
+                      }
+                    }
+                    .brand:hover {
+                      color: #1ea7f4;
+                    }
+                  }
+                  .last_brands {
+                    border: 0;
+                  }
                 }
               }
             }
           }
+        }
+        .nav_module:hover .dropdown {
+          display: block;
+        }
+        .nav_module:hover .nav_module_circle {
+          display: block;
         }
       }
     }

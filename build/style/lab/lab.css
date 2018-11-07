@@ -208,75 +208,97 @@ header {
     header .nav .mainNav {
       height: 47px;
       background: white; }
-    header .nav a {
-      color: #333333; }
-      header .nav a span {
-        line-height: 47px;
-        float: left;
-        margin: 0 37.5px; }
-    header .nav span:hover {
-      color: #0085d0; }
-    header .nav span:hover .sec .circle {
-      display: block; }
-    header .nav .sec {
-      position: relative; }
-      header .nav .sec .circle {
-        width: 4px;
-        height: 4px;
-        -webkit-border-radius: 50%;
-           -moz-border-radius: 50%;
-                border-radius: 50%;
-        background: #0085d0;
-        position: absolute;
-        top: 38px;
-        left: 158px;
-        display: none; }
-      header .nav .sec .section {
-        width: 880px;
-        position: absolute;
-        top: 55px;
-        left: -12px;
-        background: white;
-        z-index: 10;
-        overflow: hidden;
-        display: none; }
-        header .nav .sec .section .inner {
-          width: 748px;
-          position: relative;
-          top: 35px;
-          left: 70px; }
-          header .nav .sec .section .inner .module {
-            width: 748px;
-            overflow: hidden; }
-            header .nav .sec .section .inner .module .series {
-              font-size: 18px;
-              font-weight: 400;
-              color: #0085d0;
-              float: left;
-              width: 20%;
-              padding-bottom: 100%;
-              margin-bottom: -100%; }
-            header .nav .sec .section .inner .module .brands {
-              float: right;
-              width: 80%;
-              border-bottom: 1px solid #eeeeee; }
-              header .nav .sec .section .inner .module .brands .brand {
-                float: left;
-                font-size: 18px;
-                font-weight: 400;
-                color: #333333;
-                padding: 8px 0 9px 44px;
-                position: relative; }
-                header .nav .sec .section .inner .module .brands .brand .brandCircle {
-                  width: 6px;
-                  height: 6px;
-                  -webkit-border-radius: 50%;
-                     -moz-border-radius: 50%;
-                          border-radius: 50%;
-                  background: #cacaca;
-                  position: absolute;
-                  top: 18px;
-                  left: 24px; }
+      header .nav .mainNav ul {
+        list-style: none; }
+        header .nav .mainNav ul .nav_item {
+          float: left;
+          padding: 0 37.5px;
+          position: relative; }
+          header .nav .mainNav ul .nav_item a {
+            color: #333333;
+            line-height: 47px; }
+          header .nav .mainNav ul .nav_item .hl_nav_item {
+            color: #0085d0; }
+          header .nav .mainNav ul .nav_item a:hover {
+            color: #0085d0; }
+        header .nav .mainNav ul .nav_item3 .hl_circle {
+          width: 4px;
+          height: 4px;
+          -webkit-border-radius: 50%;
+             -moz-border-radius: 50%;
+                  border-radius: 50%;
+          background: #0085d0;
+          position: absolute;
+          top: 39px;
+          left: 51px; }
+        header .nav .mainNav ul .nav_module {
+          position: relative; }
+          header .nav .mainNav ul .nav_module .nav_module_circle {
+            width: 4px;
+            height: 4px;
+            -webkit-border-radius: 50%;
+               -moz-border-radius: 50%;
+                    border-radius: 50%;
+            background: #0085d0;
+            position: absolute;
+            top: 39px;
+            left: 51px;
+            display: none; }
+          header .nav .mainNav ul .nav_module .dropdown {
+            width: 880px;
+            position: absolute;
+            left: -107px;
+            top: 48px;
+            padding-top: 9px;
+            display: none; }
+            header .nav .mainNav ul .nav_module .dropdown .section {
+              width: 880px;
+              background: white;
+              position: absolute;
+              padding: 56px 73px 46px 43px;
+              z-index: 1; }
+              header .nav .mainNav ul .nav_module .dropdown .section .inner {
+                width: 748px; }
+                header .nav .mainNav ul .nav_module .dropdown .section .inner .module {
+                  width: 748px;
+                  float: left; }
+                  header .nav .mainNav ul .nav_module .dropdown .section .inner .module .series {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #0085d0;
+                    float: left;
+                    width: 20%;
+                    padding-bottom: 100%;
+                    margin-bottom: -100%; }
+                  header .nav .mainNav ul .nav_module .dropdown .section .inner .module .brands {
+                    float: right;
+                    width: 80%;
+                    border-bottom: 1px solid #eeeeee; }
+                    header .nav .mainNav ul .nav_module .dropdown .section .inner .module .brands .brand {
+                      float: left;
+                      font-size: 18px;
+                      font-weight: 400;
+                      color: #333333;
+                      padding: 8px 0 9px 44px;
+                      position: relative; }
+                      header .nav .mainNav ul .nav_module .dropdown .section .inner .module .brands .brand .brandCircle {
+                        width: 6px;
+                        height: 6px;
+                        -webkit-border-radius: 50%;
+                           -moz-border-radius: 50%;
+                                border-radius: 50%;
+                        background: #cacaca;
+                        position: absolute;
+                        top: 27px;
+                        left: 24px; }
+                    header .nav .mainNav ul .nav_module .dropdown .section .inner .module .brands .brand:hover {
+                      color: #1ea7f4; }
+                  header .nav .mainNav ul .nav_module .dropdown .section .inner .module .last_brands {
+                    border: 0; }
+        header .nav .mainNav ul .nav_module:hover .dropdown {
+          display: block; }
+        header .nav .mainNav ul .nav_module:hover .nav_module_circle {
+          display: block; }
 
 .footer {
   width: 100%;

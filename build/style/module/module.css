@@ -208,16 +208,19 @@ header {
     header .nav .mainNav {
       height: 47px;
       background: white; }
-    header .nav a {
-      color: #333333; }
-      header .nav a span {
-        line-height: 47px;
-        float: left;
-        margin: 0 37.5px; }
-    header .nav span:hover {
-      color: #0085d0; }
-    header .nav span:hover .sec .circle {
-      display: block; }
+      header .nav .mainNav ul {
+        list-style: none; }
+        header .nav .mainNav ul .nav_item {
+          float: left;
+          padding: 0 37.5px;
+          position: relative; }
+          header .nav .mainNav ul .nav_item a {
+            color: #333333;
+            line-height: 47px; }
+          header .nav .mainNav ul .nav_item .hl_nav_item {
+            color: #0085d0; }
+          header .nav .mainNav ul .nav_item a:hover {
+            color: #0085d0; }
 
 .footer {
   width: 100%;

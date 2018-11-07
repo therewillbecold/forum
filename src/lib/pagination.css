@@ -2,13 +2,7 @@
 .m-style {
   width: 520px;
   margin: 0 auto;
-  /* position: absolute;
-  left: 0;
-  right: 0;
-  top:0;
-  bottom: 0; */
   text-align: center;
-  /* zoom: 1; */
 }
 
 .m-style:before,
@@ -38,10 +32,10 @@
   width: 28px;
   height: 28px;
   line-height: 28px;
-  background: #e91e63;
-  color: #fff;
+  background: #f5f7fa;
+  color: #333333;
   font-size: 14px;
-  border: 1px solid #e91e63;
+  border: 1px solid #f5f7fa;
 }
 
 .m-style a {
@@ -57,8 +51,8 @@
 }
 
 .m-style a:hover {
-  color: #fff;
-  background: #e91e63;
+  color:#333333;
+  background: #f5f7fa;
 }
 
 .m-style .next,
@@ -89,9 +83,9 @@ input {
   background: #fff;
   border: 1px solid #ebebeb;
   outline: none;
-  color: #bdbdbd;
+  color: #333333;
   font-size: 14px;
 }
-.m-style .jump-btn{
-  width:50px;
+.m-style .jump-btn {
+  width: 50px;
 }
