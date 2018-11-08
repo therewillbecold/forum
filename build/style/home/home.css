@@ -219,35 +219,32 @@ header {
             line-height: 47px; }
           header .nav .mainNav ul .nav_item .hl_nav_item {
             color: #0085d0; }
-          header .nav .mainNav ul .nav_item a:hover {
-            color: #0085d0; }
-        header .nav .mainNav ul .nav_item1 .hl_circle {
-          width: 4px;
-          height: 4px;
-          -webkit-border-radius: 50%;
-             -moz-border-radius: 50%;
-                  border-radius: 50%;
-          background: #0085d0;
-          position: absolute;
-          top: 39px;
-          left: 51px; }
-        header .nav .mainNav ul .nav_module {
-          position: relative; }
-          header .nav .mainNav ul .nav_module .nav_module_circle {
+          header .nav .mainNav ul .nav_item .hl_circle {
             width: 4px;
             height: 4px;
             -webkit-border-radius: 50%;
                -moz-border-radius: 50%;
                     border-radius: 50%;
             background: #0085d0;
+            float: left;
             position: absolute;
-            top: 39px;
-            left: 51px;
+            top: 38px;
+            left: 50px;
             display: none; }
+          header .nav .mainNav ul .nav_item .hl_circle3 {
+            left: 58px; }
+          header .nav .mainNav ul .nav_item .hl_circle4 {
+            left: 68px; }
+        header .nav .mainNav ul .nav_item:hover a {
+          color: #0085d0; }
+        header .nav .mainNav ul .nav_item:hover .hl_circle {
+          display: block; }
+        header .nav .mainNav ul .nav_module {
+          position: relative; }
           header .nav .mainNav ul .nav_module .dropdown {
             width: 880px;
             position: absolute;
-            left: -107px;
+            left: -111px;
             top: 48px;
             padding-top: 9px;
             display: none; }
@@ -304,11 +301,13 @@ header {
   padding-top: 20px;
   width: 1920px;
   background: #f7f7f7; }
+  .content iframe {
+    float: left;
+    margin-top: 20px;
+    margin-right: 38px; }
   .content .conContainer {
     margin-top: 20px;
     height: 1740px; }
-    .content .conContainer iframe {
-      float: left; }
     .content .conContainer .mainRight {
       width: 312px;
       height: 1680px;
@@ -713,7 +712,7 @@ header {
 
 .footer {
   width: 100%;
-  height: 179px;
+  height: 200px;
   margin-top: 40px;
   background: white;
   padding-top: 20px; }
@@ -729,7 +728,8 @@ header {
     .footer .footerNav ul {
       margin: 0 auto;
       width: 816px;
-      height: 30px; }
+      height: 30px;
+      padding-left: 30px; }
       .footer .footerNav ul li {
         float: left;
         height: 30px;
@@ -754,6 +754,25 @@ header {
   .footer .info a:hover {
     color: #337ab7;
     cursor: pointer; }
+  .footer .footerIcon {
+    width: 282px;
+    height: 47px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative; }
+    .footer .footerIcon .footerIconLeft {
+      position: absolute; }
+    .footer .footerIcon .footerIconRight {
+      position: absolute;
+      left: 147px;
+      top: 11px; }
+    .footer .footerIcon .footerText {
+      position: absolute;
+      top: 18px;
+      left: 170px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #333333; }
 
 .carousel {
   width: 1130px;

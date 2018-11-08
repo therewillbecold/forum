@@ -31,7 +31,7 @@
               justify-content: center; }
       .mainLeft ul li .liContainer {
         width: 740px;
-        padding-bottom: 20px;
+        margin-top: 20px;
         height: 240px;
         border-bottom: 1px solid #e6e6e6; }
         .mainLeft ul li .liContainer .liPic {

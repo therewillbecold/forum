@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="/style/home/home.css">
-    
+
 </head>
 
 <body>
@@ -136,7 +136,7 @@
                         </li>
                         <li class="nav_item nav_module">
                             <a href="/module.html">版块</a>
-                            <div class="nav_module_circle"></div>
+                            <div class="hl_circle"></div>
                             <div class="dropdown">
                                 <div class="section">
                                     <div class="inner">
@@ -284,24 +284,31 @@
                         </li>
                         <li class="nav_item">
                             <a href="/lab.html">实验室</a>
+                            <div class="hl_circle hl_circle3"></div>
                         </li>
                         <li class="nav_item">
-                            <a href="">智造</a>
+                            <a href="/creativity.html">智造</a>
+                            <div class="hl_circle"></div>
                         </li>
                         <li class="nav_item">
-                            <a href="">众测</a>
+                            <a href="/test.html">众测</a>
+                            <div class="hl_circle"></div>
                         </li>
                         <li class="nav_item">
-                            <a href="">随手拍</a>
+                            <a href="/snap.html">随手拍</a>
+                            <div class="hl_circle hl_circle3"></div>
                         </li>
                         <li class="nav_item">
-                            <a href="">精彩活动</a>
+                            <a href="/activity.html">精彩活动</a>
+                            <div class="hl_circle hl_circle4"></div>
                         </li>
                         <li class="nav_item">
-                            <a href="">系统下载</a>
+                            <a href="/download.html">系统下载</a>
+                            <div class="hl_circle hl_circle4"></div>
                         </li>
                         <li class="nav_item">
-                            <a href="">和码商店</a>
+                            <a href="/shop.html">和码商店</a>
+                            <div class="hl_circle hl_circle4"></div>
                         </li>
                     </ul>
                 </div>
@@ -354,8 +361,8 @@
                     </ol>
                 </div>
             </div>
-  
-            <iframe src="/iframe-news.html"  scrolling="no" frameborder="0" width="780px" height="1680px"></iframe>
+
+            <iframe src="/iframe-news.html" scrolling="no" frameborder="0" width="780px" height="1680px"></iframe>
             <div class="conContainer">
                 <!-- <div class="mainLeft">
                     <ul>
@@ -605,59 +612,57 @@
     <div class="footer">
         <div class="footerNav">
             <ul>
-                <li><a href="">新闻中心</a></li>
-                <li><a href="">采购信息</a></li>
-                <li><a href="">诚聘英才</a></li>
-                <li><a href="">企业合作</a></li>
-                <li><a href="">站点导航</a></li>
-                <li><a href="">中国移动设计院</a></li>
-                <li><a href="">中国移动香港公司</a></li>
-                <li><a href="">政企客户分公司</a></li>
-                <li><a href="">数字家庭合作联盟</a></li>
-                <li><a href="">网站地图</a></li>
-                <li><a href="" class="last">友情链接</a></li>
+                <li><a href="http://www.10086kuaixiu.com/">移动快修</a></li>
+                <li><a href="http://www.10086.cn/index/gd/index_200_755.html">中国移动官方网站</a></li>
+                <li><a href="http://gd.10086.cn/service/">网上营业厅</a></li>
+                <li><a href="http://phone.10086.cn/">中国移动自有品牌官网</a></li>
+                <li><a href="https://mall.jd.com/index-600733.html">中国移动手机官方旗舰店（京东）</a></li>
+                <li><a href="http://139.tmall.com/" class="last">中国移动手机官方旗舰店（天猫）</a></li>
             </ul>
         </div>
-        <div class="info footerCommon"> 掌上营业厅：<a href="wap.10086.cn">wap.10086.cn</a> 语音自助服务：10086 短信营业厅：10086 自助终端 营业厅
-            中国移动客户端下载</div>
-        <div class="copyright footerCommon"> Copyright©1999-2018 中国移动 版权所有 本网站支持IPv6访问 </div>
+        <div class="copyright footerCommon"> Copyright©1999-2018 中国移动 版权所有 </div>
         <div class="legal footerCommon">中华人民共和国增值电信业务经营许可证 经营许可证编号：A2.B1.B2-20100001</div>
         <div class="footerIcon">
-            <div class="footerIconLeft"></div>
-            <div class="footerIconRight"></div>
+            <div class="footerIconLeft">
+                <img src="/static/image/icon/footerIconB.png" alt="">
+            </div>
+            <div class="footerIconRight">
+                <img src="/static/image/icon/footerIconS.png" alt="">
+            </div>
+            <div class="footerText">京ICP备05002571号</div>
         </div>
     </div>
     <script src="/lib/jquery.js"></script>
     <script src="/lib/jquery.pagination.js"></script>
     <script src="/commonjs/banner-carousel.js"></script>
-    <!-- <script>
+    <script>
 
-        window.onload = function () {
-            setPageWidth()
-        }
-        function setPageWidth() {
-            var total = 0
-            $('.m-style').children().each(function () {
-                let _w = $(this).outerWidth() + parseInt($(this).css('margin-left')) + parseInt($(this).css('margin-right'))
-                total += _w;
-            })
-            $('.m-style').width(total)
-        }
+        // window.onload = function () {
+        //     setPageWidth()
+        // }
+        // function setPageWidth() {
+        //     var total = 0
+        //     $('.m-style').children().each(function () {
+        //         let _w = $(this).outerWidth() + parseInt($(this).css('margin-left')) + parseInt($(this).css('margin-right'))
+        //         total += _w;
+        //     })
+        //     $('.m-style').width(total)
+        // }
 
-        $('.M-box3').pagination({
-            pageCount: 100,
-            jump: true,
-            coping: false,
-            prevContent: '&lt;',
-            nextContent: '&gt;',
-            callback: function (api) {
-                setPageWidth()
-                var curPageNo = api.getCurrent()
-                // window.location = ''
-            }
-        });
+        // $('.M-box3').pagination({
+        //     pageCount: 100,
+        //     jump: true,
+        //     coping: false,
+        //     prevContent: '&lt;',
+        //     nextContent: '&gt;',
+        //     callback: function (api) {
+        //         setPageWidth()
+        //         var curPageNo = api.getCurrent()
+        //         // window.location = ''
+        //     }
+        // }); 
 
-    </script> -->
+    </script>
 </body>
 
 </html>

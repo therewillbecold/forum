@@ -1,7 +1,6 @@
 .forFree {
   width: 1130px;
   height: 340px;
-  border: 1px solid #000;
   margin-top: 20px; }
   .forFree .pic {
     width: 740px;
@@ -11,7 +10,6 @@
   .forFree .info {
     width: 388px;
     height: 340px;
-    border: 1px solid #000;
     float: left;
     background: white; }
     .forFree .info .title {
@@ -28,7 +26,6 @@
       width: 350px;
       height: 172px; }
       .forFree .info .updateInfo .infoLeft {
-        border: 1px solid #000;
         width: 198px;
         height: 172px;
         font-size: 14px;
@@ -37,7 +34,6 @@
         float: left;
         margin-left: 20px; }
         .forFree .info .updateInfo .infoLeft .updateInfo {
-          border: 1px solid #000;
           font-weight: 400;
           line-height: 22px; }
         .forFree .info .updateInfo .infoLeft b {
@@ -84,7 +80,185 @@
       text-align: center;
       line-height: 42px;
       margin-top: 28px;
-      margin-left: 135px; }
+      margin-left: 135px;
+      color: white; }
+      .forFree .info .checkDetail a {
+        color: white; }
+
+.testProduct {
+  width: 1130px;
+  height: 792px;
+  background: white;
+  padding: 20px 40px 20px 40px;
+  margin-top: 20px; }
+  .testProduct .testProductInner {
+    width: 1050px;
+    height: 752px; }
+    .testProduct .testProductInner .title {
+      width: 1050px;
+      height: 37px; }
+      .testProduct .testProductInner .title .titleLeft {
+        font-size: 18px;
+        font-weight: 400;
+        color: #333333;
+        line-height: 22px;
+        float: left; }
+      .testProduct .testProductInner .title .titleRight {
+        font-size: 14px;
+        font-weight: 400;
+        color: #999999;
+        float: right;
+        margin-top: 15px; }
+    .testProduct .testProductInner .productsInfo {
+      width: 1050px;
+      height: 713px;
+      border-top: 1px solid #e6e6e6; }
+      .testProduct .testProductInner .productsInfo .productInfo {
+        width: 350px;
+        height: 356px;
+        text-align: center;
+        float: left;
+        border-bottom: 1px solid #e6e6e6; }
+        .testProduct .testProductInner .productsInfo .productInfo .saleStatus {
+          width: 52px;
+          height: 24px;
+          -webkit-border-radius: 4px;
+             -moz-border-radius: 4px;
+                  border-radius: 4px;
+          font-weight: 400;
+          color: white;
+          margin-top: 20px;
+          margin-left: 20px;
+          font-size: 12px;
+          line-height: 24px;
+          text-align: center; }
+        .testProduct .testProductInner .productsInfo .productInfo .apply {
+          background: #1ea7f4; }
+        .testProduct .testProductInner .productsInfo .productInfo .finished {
+          background: #cccccc; }
+        .testProduct .testProductInner .productsInfo .productInfo .productPic {
+          width: 348px;
+          height: 210px;
+          border: 1px solid #000;
+          position: relative; }
+          .testProduct .testProductInner .productsInfo .productInfo .productPic .mask {
+            width: 348px;
+            height: 60px;
+            background: black;
+            opacity: 0.5;
+            position: absolute;
+            bottom: 0;
+            display: none; }
+            .testProduct .testProductInner .productsInfo .productInfo .productPic .mask .timing {
+              font-size: 14px;
+              font-weight: 400;
+              color: white;
+              line-height: 78px;
+              margin-left: 27px; }
+              .testProduct .testProductInner .productsInfo .productInfo .productPic .mask .timing b {
+                font-size: 24px; }
+        .testProduct .testProductInner .productsInfo .productInfo .brand {
+          font-size: 12px;
+          font-weight: 400;
+          color: #333333;
+          margin-top: 10px; }
+        .testProduct .testProductInner .productsInfo .productInfo .price {
+          font-size: 14px;
+          font-weight: 400;
+          color: #999999;
+          line-height: 18px;
+          margin-top: 10px; }
+        .testProduct .testProductInner .productsInfo .productInfo .status {
+          font-size: 14px;
+          font-weight: 400;
+          color: #999999;
+          line-height: 18px;
+          margin-top: 16px; }
+      .testProduct .testProductInner .productsInfo .productInfobd {
+        border-left: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6; }
+
+.testReport {
+  width: 1130px;
+  height: 792px;
+  background: white;
+  padding: 20px 40px 20px 40px;
+  margin-top: 20px; }
+  .testReport .testReportInner {
+    width: 1050px;
+    height: 752px; }
+    .testReport .testReportInner .title {
+      width: 1050px;
+      height: 37px; }
+      .testReport .testReportInner .title .titleLeft {
+        font-size: 18px;
+        font-weight: 400;
+        color: #333333;
+        line-height: 22px;
+        float: left; }
+      .testReport .testReportInner .title .titleRight {
+        font-size: 14px;
+        font-weight: 400;
+        color: #999999;
+        float: right;
+        margin-top: 15px; }
+    .testReport .testReportInner .reportsInfo {
+      width: 1050px;
+      height: 713px;
+      border-top: 1px solid #e6e6e6; }
+      .testReport .testReportInner .reportsInfo .reportInfo {
+        width: 350px;
+        height: 356px;
+        text-align: center;
+        float: left;
+        border-bottom: 1px solid #e6e6e6; }
+        .testReport .testReportInner .reportsInfo .reportInfo .reportPic {
+          width: 310px;
+          height: 210px;
+          border: 1px solid #000;
+          position: relative;
+          margin: 20px 20px 0 20px; }
+          .testReport .testReportInner .reportsInfo .reportInfo .reportPic .mask {
+            width: 348px;
+            height: 60px;
+            background: black;
+            opacity: 0.5;
+            position: absolute;
+            bottom: 0;
+            display: none; }
+            .testReport .testReportInner .reportsInfo .reportInfo .reportPic .mask .timing {
+              font-size: 14px;
+              font-weight: 400;
+              color: white;
+              line-height: 78px;
+              margin-left: 27px; }
+              .testReport .testReportInner .reportsInfo .reportInfo .reportPic .mask .timing b {
+                font-size: 24px; }
+        .testReport .testReportInner .reportsInfo .reportInfo .recommend {
+          text-align: left;
+          width: 249px;
+          height: 37px;
+          font-size: 14px;
+          font-weight: 400;
+          color: #333333;
+          margin-left: 20px;
+          margin-top: 14px;
+          line-height: 24px; }
+        .testReport .testReportInner .reportsInfo .reportInfo .time {
+          font-size: 12px;
+          font-weight: 400;
+          color: #999999; }
+          .testReport .testReportInner .reportsInfo .reportInfo .time b {
+            color: #1ea7f4; }
+        .testReport .testReportInner .reportsInfo .reportInfo .icons {
+          font-size: 14px;
+          font-weight: 400;
+          color: #999999;
+          line-height: 18px;
+          margin-top: 16px; }
+      .testReport .testReportInner .reportsInfo .reportInfobd {
+        border-left: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6; }
 
 * {
   -webkit-box-sizing: border-box;

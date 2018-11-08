@@ -1,7 +1,6 @@
 .forFree {
   width: 1130px;
   height: 340px;
-  border: 1px solid #000;
   margin-top: 20px;
   .pic {
     width: 740px;
@@ -12,7 +11,6 @@
   .info {
     width: 388px;
     height: 340px;
-    border: 1px solid #000;
     float: left;
     background: rgba(255, 255, 255, 1);
     .title {
@@ -30,7 +28,6 @@
       width: 350px;
       height: 172px;
       .infoLeft {
-        border: 1px solid #000;
         width: 198px;
         height: 172px;
         font-size: 14px;
@@ -39,7 +36,6 @@
         float: left;
         margin-left: 20px;
         .updateInfo {
-          border: 1px solid #000;
           font-weight: 400;
           line-height: 22px;
         }
@@ -94,6 +90,215 @@
       line-height: 42px;
       margin-top: 28px;
       margin-left: 135px;
+      color: white;
+      a {
+        color: white;
+      }
+    }
+  }
+}
+.testProduct {
+  width: 1130px;
+  height: 792px;
+  background: rgba(255, 255, 255, 1);
+  padding: 20px 40px 20px 40px;
+  margin-top: 20px;
+  .testProductInner {
+    width: 1050px;
+    height: 752px;
+    .title {
+      width: 1050px;
+      height: 37px;
+      .titleLeft {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        line-height: 22px;
+        float: left;
+      }
+      .titleRight {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(153, 153, 153, 1);
+        float: right;
+        margin-top: 15px;
+      }
+    }
+    .productsInfo {
+      width: 1050px;
+      height: 713px;
+      border-top: 1px solid rgba(230, 230, 230, 1);
+      .productInfo {
+        width: 350px;
+        height: 356px;
+        text-align: center;
+        float: left;
+        border-bottom: 1px solid rgba(230, 230, 230, 1);
+        .saleStatus {
+          width: 52px;
+          height: 24px;
+          border-radius: 4px;
+          font-weight: 400;
+          color: rgba(255, 255, 255, 1);
+          margin-top: 20px;
+          margin-left: 20px;
+          font-size: 12px;
+          line-height: 24px;
+          text-align: center;
+        }
+        .apply {
+          background: rgba(30, 167, 244, 1);
+        }
+        .finished {
+          background: rgba(204, 204, 204, 1);
+        }
+        .productPic {
+          width: 348px;
+          height: 210px;
+          border: 1px solid #000;
+          position: relative;
+          .mask {
+            width: 348px;
+            height: 60px;
+            background: black;
+            opacity: 0.5;
+            position: absolute;
+            bottom: 0;
+            display: none;
+            .timing {
+              font-size: 14px;
+              font-weight: 400;
+              color: white;
+              line-height: 78px;
+              margin-left: 27px;
+              b {
+                font-size: 24px;
+              }
+            }
+          }
+        }
+        .brand {
+          font-size: 12px;
+          font-weight: 400;
+          color: rgba(51, 51, 51, 1);
+          margin-top: 10px;
+        }
+        .price {
+          font-size: 14px;
+          font-weight: 400;
+          color: rgba(153, 153, 153, 1);
+          line-height: 18px;
+          margin-top: 10px;
+        }
+        .status {
+          font-size: 14px;
+          font-weight: 400;
+          color: rgba(153, 153, 153, 1);
+          line-height: 18px;
+          margin-top: 16px;
+        }
+      }
+      .productInfobd {
+        border-left: 1px solid rgba(230, 230, 230, 1);
+        border-right: 1px solid rgba(230, 230, 230, 1);
+      }
+    }
+  }
+}
+.testReport {
+  width: 1130px;
+  height: 792px;
+  background: rgba(255, 255, 255, 1);
+  padding: 20px 40px 20px 40px;
+  margin-top: 20px;
+  .testReportInner {
+    width: 1050px;
+    height: 752px;
+    .title {
+      width: 1050px;
+      height: 37px;
+      .titleLeft {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        line-height: 22px;
+        float: left;
+      }
+      .titleRight {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(153, 153, 153, 1);
+        float: right;
+        margin-top: 15px;
+      }
+    }
+    .reportsInfo {
+      width: 1050px;
+      height: 713px;
+      border-top: 1px solid rgba(230, 230, 230, 1);
+      .reportInfo {
+        width: 350px;
+        height: 356px;
+        text-align: center;
+        float: left;
+        border-bottom: 1px solid rgba(230, 230, 230, 1);
+        .reportPic {
+          width: 310px;
+          height: 210px;
+          border: 1px solid #000;
+          position: relative;
+          margin: 20px 20px 0 20px;
+          .mask {
+            width: 348px;
+            height: 60px;
+            background: black;
+            opacity: 0.5;
+            position: absolute;
+            bottom: 0;
+            display: none;
+            .timing {
+              font-size: 14px;
+              font-weight: 400;
+              color: white;
+              line-height: 78px;
+              margin-left: 27px;
+              b {
+                font-size: 24px;
+              }
+            }
+          }
+        }
+        .recommend {
+          text-align: left;
+          width: 249px;
+          height: 37px;
+          font-size: 14px;
+          font-weight: 400;
+          color: rgba(51, 51, 51, 1);
+          margin-left: 20px;
+          margin-top: 14px;
+          line-height: 24px;
+        }
+        .time {
+          font-size: 12px;
+          font-weight: 400;
+          color: rgba(153, 153, 153, 1);
+          b {
+            color: rgba(30, 167, 244, 1);
+          }
+        }
+        .icons {
+          font-size: 14px;
+          font-weight: 400;
+          color: rgba(153, 153, 153, 1);
+          line-height: 18px;
+          margin-top: 16px;
+        }
+      }
+      .reportInfobd {
+        border-left: 1px solid rgba(230, 230, 230, 1);
+        border-right: 1px solid rgba(230, 230, 230, 1);
+      }
     }
   }
 }

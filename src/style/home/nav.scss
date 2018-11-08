@@ -245,37 +245,36 @@ header {
           .hl_nav_item {
             color: rgba(0, 133, 208, 1);
           }
-          a:hover {
-            color: rgba(0, 133, 208, 1);
-          }
-        }
-        .nav_item1 {
           .hl_circle {
             width: 4px;
             height: 4px;
             border-radius: 50%;
             background: #0085d0;
+            float: left;
             position: absolute;
-            top: 39px;
-            left: 51px;
+            top: 38px;
+            left: 50px;
+            display: none;
           }
+          .hl_circle3 {
+            left: 58px;
+          }
+          .hl_circle4 {
+            left: 68px;
+          }
+        }
+        .nav_item:hover a {
+          color: rgba(0, 133, 208, 1);
+        }
+        .nav_item:hover .hl_circle {
+          display: block;
         }
         .nav_module {
           position: relative;
-          .nav_module_circle {
-            width: 4px;
-            height: 4px;
-            border-radius: 50%;
-            background: #0085d0;
-            position: absolute;
-            top: 39px;
-            left: 51px;
-            display: none;
-          }
           .dropdown {
             width: 880px;
             position: absolute;
-            left: -107px;
+            left: -111px;
             top: 48px;
             padding-top: 9px;
             display: none;
