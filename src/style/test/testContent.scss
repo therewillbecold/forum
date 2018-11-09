@@ -1,7 +1,6 @@
 .forFree {
   width: 1130px;
   height: 340px;
-  margin-top: 20px;
   .pic {
     width: 740px;
     height: 340px;
@@ -155,7 +154,6 @@
         .productPic {
           width: 348px;
           height: 210px;
-          border: 1px solid #000;
           position: relative;
           .mask {
             width: 348px;
@@ -239,34 +237,13 @@
       .reportInfo {
         width: 350px;
         height: 356px;
-        text-align: center;
         float: left;
         border-bottom: 1px solid rgba(230, 230, 230, 1);
         .reportPic {
           width: 310px;
           height: 210px;
-          border: 1px solid #000;
           position: relative;
           margin: 20px 20px 0 20px;
-          .mask {
-            width: 348px;
-            height: 60px;
-            background: black;
-            opacity: 0.5;
-            position: absolute;
-            bottom: 0;
-            display: none;
-            .timing {
-              font-size: 14px;
-              font-weight: 400;
-              color: white;
-              line-height: 78px;
-              margin-left: 27px;
-              b {
-                font-size: 24px;
-              }
-            }
-          }
         }
         .recommend {
           text-align: left;
@@ -282,7 +259,10 @@
         .time {
           font-size: 12px;
           font-weight: 400;
-          color: rgba(153, 153, 153, 1);
+          color: #999999;
+          text-align: left;
+          margin-left: 20px;
+          margin-top: 20px;
           b {
             color: rgba(30, 167, 244, 1);
           }
@@ -293,6 +273,29 @@
           color: rgba(153, 153, 153, 1);
           line-height: 18px;
           margin-top: 16px;
+          margin-left: 20px;
+          .icon {
+            width: 16px;
+            height: 14px;
+            float: left;
+            margin-right:5px;
+          }
+          .eyesicon{
+            margin-top: 0px;
+          }
+          .commenticon{
+            margin-top: 2px;
+          }
+          .thumbUpicon{
+            margin-top: -3px;
+          }
+          span {
+            font-size: 12px;
+            font-weight: 400;
+            color: rgba(153, 153, 153, 1);
+            float: left;
+            margin-right: 15px;
+          }
         }
       }
       .reportInfobd {

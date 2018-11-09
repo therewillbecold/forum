@@ -2,75 +2,70 @@ $width: 1130px;
 $height: 390px;
 
 .carousel {
-    width: $width;
-    height: $height;
-    border: 1px solid gray;
-    position: relative;
-    overflow: hidden;
+  width: $width;
+  height: $height;
+  border: 1px solid gray;
+  position: relative;
+  overflow: hidden;
 }
 .carousel .movement {
-    width: 10000px;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 10000px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .carousel .movement ul {
-    list-style: none;
+  list-style: none;
 }
 .carousel .movement ul li {
-    width: $width;
-    height: $height;
-    float: left;
-    overflow: hidden;
+  width: $width;
+  height: $height;
+  float: left;
+  overflow: hidden;
 }
-.carousel .movement ul li a{
-    width: 100%;
-    height: 100%;
+.carousel .movement ul li a {
+  width: 100%;
+  height: 100%;
 }
-.carousel .movement ul li a img{
-    width: $width;
-    height: $height;
+.carousel .movement ul li a img {
+  width: $width;
+  height: $height;
 }
 .carousel .btns .common {
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: 50%;
-    margin-top: -20px;
-    background-color: beige;
-    font-size: 20px;
-    line-height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    cursor: pointer;
-    z-index: 999;
+  height: 80px;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  cursor: pointer;
+  z-index: 1;
 }
 .carousel .btns .btnLeft {
-    left: 10px;
+  left: 0;
 }
 .carousel .btns .btnRight {
-    right: 10px;
+  right: 0;
 }
 .carousel .circles {
-    width: 100px;
-    height: 10px;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    margin-left: -50px;
+  width: 120px;
+  height: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin-left: -50px;
 }
 .carousel .circles ol {
-    list-style: none;
+  list-style: none;
 }
 .carousel .circles ol li {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 10px;
-    background-color: seashell;
-    cursor: pointer;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(247, 247, 247, 1);
+  border-radius: 50%;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer;
 }
 .carousel .circles ol li.cur {
-    background-color: darkslategray;
+  background: rgba(247, 247, 247, 1);
 }

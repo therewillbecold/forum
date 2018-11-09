@@ -1,5 +1,4 @@
 .content {
-  padding-top: 20px;
   width: 1920px;
   background: #f7f7f7;
   iframe {
@@ -124,6 +123,7 @@
         .trending {
           top: 0px;
           left: -3px;
+          overflow-y:auto;
           .topPost {
             width: 90px;
             height: 38px;

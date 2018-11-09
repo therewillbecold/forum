@@ -61,12 +61,14 @@
             overflow: hidden;
             -o-text-overflow: ellipsis;
                text-overflow: ellipsis;
-            white-space: nowrap; }
+            white-space: nowrap;
+            margin-left: -5px;
+            margin-top: -6px; }
           .mainLeft ul li .liContainer .liContent .time {
             right: -50px;
             display: block;
             position: absolute;
-            top: 10px; }
+            top: 7px; }
           .mainLeft ul li .liContainer .liContent .shareIcon {
             width: 14px;
             height: 14px;
