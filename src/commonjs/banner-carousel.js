@@ -1,10 +1,23 @@
-let picNum = $('.movement ul').children().length
+let timer
+
+let picNum = $('.movement ul').children().length;
 
 $('.movement ul li:first').clone().appendTo('.movement ul');
+var $carousel = $('.carousel ')
 var $movement = $('.carousel .movement');
 var $btnLeft = $('.carousel .btns .btnLeft');
 var $btnRight = $('.carousel .btns .btnRight');
-var $circles = $('.carousel .circles ol li')
+
+let circleStr = ""
+for (var i = 0; i < picNum; i++) {
+    circleStr += '<li></li>'
+}
+$('.carousel .circles ol').html(circleStr);
+var $circles = $('.carousel .circles ol li');
+ $circles.eq(0).addClass('cur');
+
+
+
 var idx = 0;
 function btnLeftClickhandler() {
     if ($movement.is(':animated')) return;
@@ -29,18 +42,29 @@ function btnRightClickhandler() {
 }
 function circleClickhandler() {
     if ($movement.is(':animated')) return;
-    var idx = index = $(this).index();
+    var idx = picNum = $(this).index();
     changeCircles(idx)
     $movement.css('left', -1130 * idx);
 }
 function changeCircles(n) {
     $circles.removeClass('cur');
     $circles.eq(n).addClass('cur');
+
 }
 $btnLeft.click(btnLeftClickhandler);
 $btnRight.click(btnRightClickhandler);
 $circles.click(circleClickhandler);
 
-setInterval(function () {
+$carousel.mouseenter(function () {
+    clearInterval(timer);
+})
+$carousel.mouseleave(function () {
+    timer = setInterval(function () {
+        btnRightClickhandler();
+    }, 2000);
+})
+
+
+timer = setInterval(function () {
     btnRightClickhandler();
 }, 2000);
