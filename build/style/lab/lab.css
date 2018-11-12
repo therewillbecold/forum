@@ -1,8 +1,368 @@
-.carousel {
-  width: 1130px;
-  height: 390px;
-  background: teal;
-  margin-top: 20px; }
+.topNav {
+  width: 100%;
+  height: 36px;
+  background: #404040; }
+  .topNav .topNavPart {
+    margin: 0 auto;
+    width: 1130px;
+    background: #404040;
+    position: relative; }
+    .topNav .topNavPart span {
+      float: left;
+      font-size: 14px;
+      line-height: 36px;
+      margin-right: 22px;
+      color: #b7b7b7; }
+    .topNav .topNavPart .last {
+      color: white; }
+    .topNav .topNavPart span:hover {
+      color: #ffffff;
+      cursor: pointer; }
+    .topNav .topNavPart .mine .profilePic {
+      position: absolute;
+      right: 66px;
+      top: 4px;
+      background-color: white;
+      width: 28px;
+      height: 28px;
+      -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+              border-radius: 50%;
+      line-height: 36px; }
+    .topNav .topNavPart .mine .idName {
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 0;
+      width: 60px;
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+         text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer; }
+    .topNav .topNavPart .mine .myInfo {
+      width: 234px;
+      height: 284px;
+      background: url(/static/image/icon/myinfo.png);
+      position: absolute;
+      top: 23px;
+      right: 15px;
+      z-index: 3;
+      display: none; }
+      .topNav .topNavPart .mine .myInfo .myInfoTop {
+        width: 188px;
+        height: 48px;
+        margin: 26px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profilePic {
+          width: 47px;
+          height: 47px;
+          -webkit-border-radius: 50%;
+             -moz-border-radius: 50%;
+                  border-radius: 50%;
+          background: black;
+          position: absolute;
+          left: 27px;
+          top: 28px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .idName {
+          font-size: 14px;
+          font-weight: 400;
+          color: #333333;
+          width: 60px;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+             text-overflow: ellipsis;
+          white-space: nowrap;
+          position: absolute;
+          top: 26px;
+          left: 82px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .position {
+          font-size: 12px;
+          font-weight: 400;
+          color: #999999;
+          position: absolute;
+          top: 43px;
+          left: 82px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .profileLeftBottom .experience {
+          font-size: 12px;
+          font-weight: 400;
+          color: #999999;
+          position: absolute;
+          top: 58px;
+          left: 82px; }
+        .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .profileLeftBottom .wealth {
+          font-size: 12px;
+          font-weight: 400;
+          color: #999999;
+          position: absolute;
+          top: 58px;
+          left: 161px; }
+      .topNav .topNavPart .mine .myInfo .myInfomiddle {
+        width: 202px;
+        height: 152px;
+        position: absolute;
+        top: 82px;
+        left: 24px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .hlbtn {
+          width: 94px;
+          height: 32px;
+          background: #1684c2;
+          color: white;
+          -webkit-border-radius: 6px;
+             -moz-border-radius: 6px;
+                  border-radius: 6px;
+          float: left;
+          margin: 0 6px 7px 1px;
+          line-height: 32px;
+          position: relative;
+          cursor: pointer;
+          padding-left: 43px;
+          font-size: 14px; }
+          .topNav .topNavPart .mine .myInfo .myInfomiddle .hlbtn .btnIcon {
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            left: 23px;
+            top: 1px; }
+          .topNav .topNavPart .mine .myInfo .myInfomiddle .hlbtn .msg {
+            width: 8px;
+            height: 8px;
+            background: #fd2f2f;
+            -webkit-border-radius: 50%;
+               -moz-border-radius: 50%;
+                    border-radius: 50%;
+            position: absolute;
+            top: -2px;
+            left: 89px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .btn {
+          width: 94px;
+          height: 32px;
+          line-height: 32px;
+          background: whitesmoke;
+          border: 1px solid #d5d5d5;
+          float: left;
+          margin: 0 6px 7px 1px;
+          cursor: pointer;
+          padding-left: 41px;
+          position: relative;
+          font-size: 14px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .btnIcon {
+          width: 16px;
+          height: 16px;
+          position: absolute;
+          left: 20px;
+          top: 2px; }
+        .topNav .topNavPart .mine .myInfo .myInfomiddle .btn:hover {
+          background: #e8e8e8; }
+      .topNav .topNavPart .mine .myInfo .myInfobottom {
+        position: absolute;
+        bottom: 0;
+        left: 12.7px;
+        font-size: 14px; }
+        .topNav .topNavPart .mine .myInfo .myInfobottom .bottomBtn {
+          float: left;
+          width: 110px;
+          height: 40px;
+          background: whitesmoke;
+          border: 1px solid #d5d5d5;
+          line-height: 40px;
+          text-align: center;
+          cursor: pointer; }
+        .topNav .topNavPart .mine .myInfo .myInfobottom .bottomBtn:hover {
+          background: #e8e8e8; }
+    .topNav .topNavPart .mine:hover .myInfo {
+      display: block !important; }
+
+header {
+  width: 100%;
+  height: 116px;
+  background: white;
+  margin-bottom: 20px; }
+  header .nav {
+    margin: 0 auto;
+    width: 1130px;
+    height: 116px;
+    background: white;
+    cursor: pointer; }
+    header .nav .headPart {
+      background: white; }
+      header .nav .headPart .head {
+        width: 1130px;
+        height: 68px;
+        background: white;
+        position: relative;
+        border-bottom: 1px solid #e6e6e6; }
+        header .nav .headPart .head .logo {
+          width: 120px;
+          height: 37px;
+          position: absolute;
+          left: 0;
+          top: 22px; }
+        header .nav .headPart .head .title {
+          width: 114px;
+          height: 25px;
+          position: absolute;
+          left: 159px;
+          top: 24px;
+          padding-left: 16px;
+          margin-left: -22px;
+          border-left: 1px solid #e6e6e6; }
+    header .nav .mainNav {
+      height: 47px;
+      background: white; }
+      header .nav .mainNav ul {
+        list-style: none; }
+        header .nav .mainNav ul .nav_item {
+          float: left;
+          padding: 0 37.5px;
+          position: relative; }
+          header .nav .mainNav ul .nav_item a {
+            color: #333333;
+            line-height: 47px; }
+          header .nav .mainNav ul .nav_item .hl_nav_item {
+            color: #0085d0; }
+          header .nav .mainNav ul .nav_item .hl_circle {
+            width: 4px;
+            height: 4px;
+            -webkit-border-radius: 50%;
+               -moz-border-radius: 50%;
+                    border-radius: 50%;
+            background: #0085d0;
+            float: left;
+            position: absolute;
+            top: 38px;
+            left: 50px;
+            display: none; }
+          header .nav .mainNav ul .nav_item .hl_circle3 {
+            left: 58px; }
+          header .nav .mainNav ul .nav_item .hl_circle4 {
+            left: 68px; }
+        header .nav .mainNav ul .nav_item:hover a {
+          color: #0085d0; }
+        header .nav .mainNav ul .nav_item:hover .hl_circle {
+          display: block; }
+        header .nav .mainNav ul .nav_module {
+          position: relative; }
+          header .nav .mainNav ul .nav_module .dropdown {
+            width: 880px;
+            position: absolute;
+            left: -107px;
+            top: 48px;
+            padding-top: 9px;
+            display: none;
+            z-index: 888; }
+            header .nav .mainNav ul .nav_module .dropdown .section {
+              width: 880px;
+              background: white;
+              position: absolute;
+              padding: 56px 73px 46px 43px;
+              border: 1px solid #eeeeee; }
+              header .nav .mainNav ul .nav_module .dropdown .section .inner {
+                width: 748px; }
+                header .nav .mainNav ul .nav_module .dropdown .section .inner .module {
+                  width: 748px;
+                  float: left; }
+                  header .nav .mainNav ul .nav_module .dropdown .section .inner .module .navSeries {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #0085d0;
+                    float: left;
+                    width: 20%;
+                    padding-bottom: 100%;
+                    margin-bottom: -100%; }
+                  header .nav .mainNav ul .nav_module .dropdown .section .inner .module .brands {
+                    float: right;
+                    width: 80%;
+                    border-bottom: 1px solid #eeeeee; }
+                    header .nav .mainNav ul .nav_module .dropdown .section .inner .module .brands .brand {
+                      float: left;
+                      font-size: 18px;
+                      font-weight: 400;
+                      color: #333333;
+                      padding: 8px 0 9px 44px;
+                      position: relative; }
+                      header .nav .mainNav ul .nav_module .dropdown .section .inner .module .brands .brand .brandCircle {
+                        width: 6px;
+                        height: 6px;
+                        -webkit-border-radius: 50%;
+                           -moz-border-radius: 50%;
+                                border-radius: 50%;
+                        background: #cacaca;
+                        position: absolute;
+                        top: 27px;
+                        left: 24px; }
+                    header .nav .mainNav ul .nav_module .dropdown .section .inner .module .brands .brand:hover {
+                      color: #1ea7f4; }
+                  header .nav .mainNav ul .nav_module .dropdown .section .inner .module .last_brands {
+                    border: 0; }
+        header .nav .mainNav ul .nav_module:hover .dropdown {
+          display: block; }
+        header .nav .mainNav ul .nav_module:hover .nav_module_circle {
+          display: block; }
+
+.footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 40px;
+  background: white;
+  padding-top: 20px;
+  margin-top: 46px; }
+  .footer .footerCommon {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center; }
+  .footer .footerNav {
+    width: 1130px;
+    height: 30px;
+    margin: 0 auto; }
+    .footer .footerNav ul {
+      margin: 0 auto;
+      width: 816px;
+      height: 30px;
+      padding-left: 30px; }
+      .footer .footerNav ul li {
+        float: left;
+        height: 30px;
+        cursor: pointer; }
+        .footer .footerNav ul li a {
+          border-right: 1px solid #cccccc;
+          text-decoration: none;
+          -webkit-transition: all 0.2s ease;
+          -o-transition: all 0.2s ease;
+          -moz-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+          color: #666;
+          font-size: 12px;
+          padding: 0 5px;
+          line-height: 30px; }
+        .footer .footerNav ul li .last {
+          border: none; }
+      .footer .footerNav ul li:hover a {
+        color: #337ab7; }
+  .footer .info a {
+    color: #666; }
+  .footer .info a:hover {
+    color: #337ab7;
+    cursor: pointer; }
+  .footer .footerIcon {
+    width: 282px;
+    height: 47px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative; }
+    .footer .footerIcon .footerIconLeft {
+      position: absolute; }
+    .footer .footerIcon .footerIconRight {
+      position: absolute;
+      left: 147px;
+      top: 11px; }
+    .footer .footerIcon .footerText {
+      position: absolute;
+      top: 18px;
+      left: 170px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #333333; }
 
 .modules {
   width: 1130px;
@@ -86,8 +446,8 @@
         .modules .moduleInner .firstModule .textBottom .like {
           width: 24px;
           height: 24px;
-          background: black;
-          float: right; }
+          float: right;
+          margin-top: 3px; }
         .modules .moduleInner .firstModule .textBottom .num {
           float: right;
           line-height: 24px;
@@ -151,8 +511,8 @@
         .modules .moduleInner .module .textBottom .like {
           width: 24px;
           height: 24px;
-          background: black;
-          float: right; }
+          float: right;
+          margin-top: 3px; }
         .modules .moduleInner .module .textBottom .num {
           float: right;
           line-height: 24px;
@@ -163,6 +523,75 @@
           color: white;
           line-height: 24px;
           text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.8); }
+
+.carousel {
+  width: 1130px;
+  height: 390px;
+  position: relative;
+  overflow: hidden; }
+
+.carousel .movement {
+  width: 10000px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.carousel .movement ul {
+  list-style: none; }
+
+.carousel .movement ul li {
+  width: 1130px;
+  height: 390px;
+  float: left;
+  overflow: hidden; }
+
+.carousel .movement ul li a {
+  width: 100%;
+  height: 100%; }
+
+.carousel .movement ul li a img {
+  width: 1130px;
+  height: 390px; }
+
+.carousel .btns .common {
+  height: 80px;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  cursor: pointer;
+  z-index: 1; }
+
+.carousel .btns .btnLeft {
+  left: 0; }
+
+.carousel .btns .btnRight {
+  right: 0; }
+
+.carousel .circles {
+  width: 144px;
+  height: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  margin-left: -50px; }
+
+.carousel .circles ol {
+  list-style: none; }
+
+.carousel .circles ol li {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #f7f7f7;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  float: left;
+  margin-left: 10px;
+  cursor: pointer; }
+
+.carousel .circles ol li.cur {
+  background: #f7f7f7; }
 
 * {
   -webkit-box-sizing: border-box;
