@@ -29,7 +29,7 @@ gulp.task("sass", [], function() {
   var plugins = [autoprefixer({ browsers: ["cover 99.5%", "ie 6-8"] })];
 
   return gulp
-    .src("./src/**/*{module,home,test,iframe-news,creativity,lab}.scss")
+    .src("./src/**/*{module,home,test,iframe-news,iframe-recommend,iframe-activitiveUsers,creativity,lab}.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(postcss(plugins))
     .pipe(gulpif(isProduction, cleanCSS()))

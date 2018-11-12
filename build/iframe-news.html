@@ -71,8 +71,12 @@
     <script src="/lib/jquery.pagination.js"></script>
     <script>
 
+        var res = /pageNo\=(\d+)/.exec(window.location.search)
+        var currentPageNo = res && res[1] || 1
+
         window.onload = function () {
             setPageWidth()
+
         }
         function setPageWidth() {
             var total = 0
@@ -82,17 +86,18 @@
             })
             $('.m-style').width(total)
         }
-
+        
         $('.M-box3').pagination({
             pageCount: 100,
             jump: true,
             coping: false,
             prevContent: '&lt;',
             nextContent: '&gt;',
+            current: currentPageNo,
             callback: function (api) {
                 setPageWidth()
                 var curPageNo = api.getCurrent()
-                // window.location = ''
+                window.location = '/iframe-news.html?pageNo=' + curPageNo
                 console.log(curPageNo)
             }
         });
