@@ -28,7 +28,8 @@
       -webkit-border-radius: 50%;
          -moz-border-radius: 50%;
               border-radius: 50%;
-      line-height: 36px; }
+      line-height: 36px;
+      overflow: hidden; }
     .topNav .topNavPart .mine .idName {
       position: absolute;
       right: 0;
@@ -59,10 +60,10 @@
           -webkit-border-radius: 50%;
              -moz-border-radius: 50%;
                   border-radius: 50%;
-          background: black;
           position: absolute;
           left: 27px;
-          top: 28px; }
+          top: 28px;
+          overflow: hidden; }
         .topNav .topNavPart .mine .myInfo .myInfoTop .profileLeft .idName {
           font-size: 14px;
           font-weight: 400;

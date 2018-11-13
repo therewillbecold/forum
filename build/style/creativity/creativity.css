@@ -7,8 +7,7 @@
 .modules {
   width: 1130px;
   height: 454px;
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  margin-top: 40px; }
   .modules .title {
     position: relative;
     width: 1130px;
@@ -74,7 +73,8 @@
              -moz-border-radius: 50%;
                   border-radius: 50%;
           float: left;
-          cursor: pointer; }
+          cursor: pointer;
+          overflow: hidden; }
         .modules .moduleInner .firstModule .textBottom .userName {
           font-size: 14px;
           font-weight: 400;
@@ -87,8 +87,8 @@
         .modules .moduleInner .firstModule .textBottom .like {
           width: 24px;
           height: 24px;
-          background: black;
-          float: right; }
+          float: right;
+          margin-top: 3px; }
         .modules .moduleInner .firstModule .textBottom .num {
           float: right;
           line-height: 24px;
@@ -134,12 +134,12 @@
         .modules .moduleInner .module .textBottom .proPic {
           width: 24px;
           height: 24px;
-          background: white;
           -webkit-border-radius: 50%;
              -moz-border-radius: 50%;
                   border-radius: 50%;
           float: left;
-          cursor: pointer; }
+          cursor: pointer;
+          overflow: hidden; }
         .modules .moduleInner .module .textBottom .userName {
           font-size: 14px;
           font-weight: 400;
@@ -152,8 +152,8 @@
         .modules .moduleInner .module .textBottom .like {
           width: 24px;
           height: 24px;
-          background: black;
-          float: right; }
+          float: right;
+          margin-top: 3px; }
         .modules .moduleInner .module .textBottom .num {
           float: right;
           line-height: 24px;
@@ -209,8 +209,10 @@
         position: absolute;
         width: 60px;
         height: 36px;
-        background: black;
-        top: 56px; }
+        top: 56px;
+        color: white;
+        background: url(/static/image/icon/tag.png);
+        text-align: center; }
       .modulesLeftRight .moduleInner .module .proPic {
         width: 544px;
         height: 260px;

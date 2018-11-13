@@ -94,94 +94,85 @@
                 </div>
             </div>
             <div class="modules">
-                <div class="title">
-                    <div class="blue"></div>
-                    <div class="text">视频</div>
-                    <div class="checkMore">查看更多</div>
-                </div>
-                <div class="moduleInner">
-                    <div class="firstModule">
-                        <div class="firstNewsContent">
-                            马蜂窝再被爆出数据造假；因恒大违约：FF 全员降薪 20%； Oculus 联合创始人艾瑞比宣布从 Facebook 辞职</div>
-                        <div class="textBottom">
-                            <div class="proPic"></div>
+                    <div class="title">
+                      <div class="blue"></div>
+                      <div class="text">视频</div>
+                      <a href=""> <div class="checkMore">查看更多</div> </a>
+                    </div>
+                    <div class="moduleInner">
+                      <a href="">
+                        <div class="firstModule">
+                          <div class="firstNewsContent">
+                            马蜂窝再被爆出数据造假；因恒大违约：FF 全员降薪 20%； Oculus
+                            联合创始人艾瑞比宣布从 Facebook 辞职
+                          </div>
+                          <div class="textBottom">
+                            <div class="proPic">  <img src="/static/image/banner/0.jpg" style="width: 24px; height: 24px;" alt=""></div>
                             <div class="userName">庆儿丫头</div>
                             <div class="num">4</div>
-                            <div class="like"></div>
+                            <div class="like"><img src="/static/image/icon/like.png" alt=""></div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="module">
-                        <div class="newsContent">
-                            索尼 WH-1000XM3 无线降 噪耳机体验：终于完美</div>
-                        <div class="textBottom">
-                            <div class="proPic"></div>
+                      </a>
+                      <a href="">
+                        <div class="module">
+                          <div class="newsContent">
+                            索尼 WH-1000XM3 无线降 噪耳机体验：终于完美
+                          </div>
+                          <div class="textBottom">
+                            <div class="proPic">  <img src="/static/image/banner/0.jpg" style="width: 24px; height: 24px;" alt=""></div>
                             <div class="userName">庆儿丫头</div>
                             <div class="num">4</div>
-                            <div class="like"></div>
+                             <div class="like"><img src="/static/image/icon/like.png" alt=""></div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="module">
-                        <div class="newsContent">
-                            当年这台千元旗舰 MP3， 128M 内存却能装下 50 首歌</div>
-                        <div class="textBottom">
-                            <div class="proPic"></div>
+                      </a>
+                      <a href="">
+                        <div class="module">
+                          <div class="newsContent">
+                            当年这台千元旗舰 MP3， 128M 内存却能装下 50 首歌
+                          </div>
+                          <div class="textBottom">
+                            <div class="proPic">  <img src="/static/image/banner/0.jpg" style="width: 24px; height: 24px;" alt=""></div>
                             <div class="userName">庆儿丫头</div>
                             <div class="num">4</div>
-                            <div class="like"></div>
+                             <div class="like"><img src="/static/image/icon/like.png" alt=""></div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="module">
-                        <div class="newsContent">
-                            熊猫直播 COO：王思聪没撤 资，筹备上市中</div>
-                        <div class="textBottom">
-                            <div class="proPic"></div>
+                      </a>
+                      <a href="">
+                        <div class="module">
+                          <div class="newsContent">
+                            熊猫直播 COO：王思聪没撤 资，筹备上市中
+                          </div>
+                          <div class="textBottom">
+                            <div class="proPic">  <img src="/static/image/banner/0.jpg" style="width: 24px; height: 24px;" alt=""></div>
                             <div class="userName">庆儿丫头</div>
                             <div class="num">4</div>
-                            <div class="like"></div>
+                             <div class="like"><img src="/static/image/icon/like.png" alt=""></div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="module">
-                        <div class="newsContent">
-                            Makeblock 这三个新「玩具」 会让他们心动吗？</div>
-                        <div class="textBottom">
-                            <div class="proPic"></div>
+                      </a>
+                      <a href="">
+                        <div class="module">
+                          <div class="newsContent">
+                            Makeblock 这三个新「玩具」 会让他们心动吗？
+                          </div>
+                          <div class="textBottom">
+                            <div class="proPic">  <img src="/static/image/banner/0.jpg" style="width: 24px; height: 24px;" alt=""></div>
                             <div class="userName">庆儿丫头</div>
                             <div class="num">4</div>
-                            <div class="like"></div>
+                             <div class="like"><img src="/static/image/icon/like.png" alt=""></div>
+                          </div>
                         </div>
+                      </a>
                     </div>
-
-                </div>
-            </div>
+                  </div>
         </div>
     </div>
     <script src="/lib/jquery.js"></script>
-    <script src="/lib/jquery.pagination.js"></script>
-    <script>
-        window.onload = function () {
-            setPageWidth()
-        }
-        function setPageWidth() {
-            var total = 0
-            $('.m-style').children().each(function () {
-                let _w = $(this).outerWidth() + parseInt($(this).css('margin-left')) + parseInt($(this).css('margin-right'))
-                total += _w;
-            })
-            $('.m-style').width(total)
-        }
 
-        $('.M-box3').pagination({
-            pageCount: 100,
-            jump: true,
-            coping: false,
-            prevContent: '&lt;',
-            nextContent: '&gt;',
-            callback: function (api) {
-                setPageWidth()
-                console.log(api.getCurrent())
-            }
-        });
-    </script>
+   
 </body>
 
 </html>

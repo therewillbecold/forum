@@ -433,7 +433,8 @@ header {
              -moz-border-radius: 50%;
                   border-radius: 50%;
           float: left;
-          cursor: pointer; }
+          cursor: pointer;
+          overflow: hidden; }
         .modules .moduleInner .firstModule .textBottom .userName {
           font-size: 14px;
           font-weight: 400;
@@ -493,12 +494,12 @@ header {
         .modules .moduleInner .module .textBottom .proPic {
           width: 24px;
           height: 24px;
-          background: white;
           -webkit-border-radius: 50%;
              -moz-border-radius: 50%;
                   border-radius: 50%;
           float: left;
-          cursor: pointer; }
+          cursor: pointer;
+          overflow: hidden; }
         .modules .moduleInner .module .textBottom .userName {
           font-size: 14px;
           font-weight: 400;

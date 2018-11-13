@@ -8,7 +8,6 @@
   width: 1130px;
   height: 454px;
   margin-top: 40px;
-  margin-bottom:40px;
   .title {
     position: relative;
     width: 1130px;
@@ -77,6 +76,7 @@
           border-radius: 50%;
           float: left;
           cursor: pointer;
+          overflow: hidden;
         }
         .userName {
           font-size: 14px;
@@ -91,8 +91,8 @@
         .like {
           width: 24px;
           height: 24px;
-          background: black;
           float: right;
+          margin-top: 3px;
         }
         .num {
           float: right;
@@ -142,10 +142,10 @@
         .proPic {
           width: 24px;
           height: 24px;
-          background: rgba(255, 255, 255, 1);
           border-radius: 50%;
           float: left;
           cursor: pointer;
+          overflow: hidden;
         }
         .userName {
           font-size: 14px;
@@ -160,8 +160,8 @@
         .like {
           width: 24px;
           height: 24px;
-          background: black;
           float: right;
+          margin-top: 3px;
         }
         .num {
           float: right;
@@ -226,8 +226,10 @@
         position: absolute;
         width: 60px;
         height: 36px;
-        background: black;
         top: 56px;
+        color:rgba(255,255,255,1);
+        background: url(/static/image/icon/tag.png);
+        text-align: center;
       }
       .proPic {
         width: 544px;
