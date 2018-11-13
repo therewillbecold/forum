@@ -31,6 +31,7 @@
         height: 28px;
         border-radius: 50%;
         line-height: 36px;
+        overflow: hidden;
       }
       .idName {
         position: absolute;
@@ -60,10 +61,10 @@
             width: 47px;
             height: 47px;
             border-radius: 50%;
-            background: black;
             position: absolute;
             left: 27px;
             top: 28px;
+            overflow: hidden;
           }
           .profileLeft {
             .idName {
