@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.activitiveUsers {
+    width: 270px;
+    height: 396px;
+    border-top: 1px solid rgba(229, 229, 229, 1);
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+    margin: 0 20px;
+    position: relative;
+    .title {
+      font-size: 16px;
+      font-family: MicrosoftYaHei-Bold;
+      font-weight: bold;
+      color: rgba(51, 51, 51, 1);
+      padding: 20px;
+    }
+    .refresh {
+      font-size: 14px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: rgba(102, 102, 102, 1);
+      padding: 20px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      cursor: pointer;
+      a{
+        text-decoration: none;
+        color: rgba(102, 102, 102, 1);
+      }
+    }
+    a:hover{
+      color: rgba(19, 142, 212, 1);
+    }
+    .refreshIcon {
+      width: 12px;
+      height: 14px;
+      position: absolute;
+      top: 23px;
+      right: 1px;
+      cursor: pointer;
+    }
+    ul {
+      list-style: none;
+   
+      li {
+        width: 270px;
+        height: 48px;
+        position: relative;
+        margin-bottom: 18px;
+        .userProPic {
+          position: absolute;
+          width: 44px;
+          height: 44px;
+          background: black;
+          border-radius: 50%;
+        }
+        .userName {
+          position: absolute;
+          top: 5px;
+          left: 62px;
+          font-size: 14px;
+          font-weight: bold;
+          color: rgba(51, 51, 51, 1);
+          width: 60px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .level {
+          position: absolute;
+          top: 7px;
+          left: 142px;
+          font-size: 14px;
+          font-weight: 400;
+          color: rgba(102, 102, 102, 1);
+        }
+        .postNum {
+          position: absolute;
+          bottom: 4px;
+          left: 62px;
+          font-size: 12px;
+          font-weight: 400;
+          color: rgba(102, 102, 102, 1);
+        }
+        .subscribe {
+          width: 64px;
+          height: 28px;
+          border: 1px solid #cccccc;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          position: absolute;
+          top: 9px;
+          right: -1px;
+          font-size: 12px;
+          font-family: Adobe Heiti Std R;
+          font-weight: normal;
+          text-align: center;
+          line-height: 28px;
+          color: rgba(51, 51, 51, 1);
+          cursor: pointer;
+        }
+        .subscribe:hover {
+          color: rgba(19, 142, 212, 1);
+        }
+      }
+    }
+  }
