@@ -53,6 +53,7 @@
         right: 15px;
         z-index: 3;
         display: none;
+        color: #666666;
         .myInfoTop {
           width: 188px;
           height: 48px;
@@ -142,6 +143,9 @@
               top: -2px;
               left: 89px;
             }
+            a {
+              color: white;
+            }
           }
           .btn {
             width: 94px;
@@ -155,6 +159,9 @@
             padding-left: 41px;
             position: relative;
             font-size: 14px;
+          }
+          a {
+            color: #666666;
           }
           .btnIcon {
             width: 16px;
@@ -172,6 +179,9 @@
           bottom: 0;
           left: 12.7px;
           font-size: 14px;
+          a {
+            color: #666666;
+          }
           .bottomBtn {
             float: left;
             width: 110px;
@@ -228,6 +238,20 @@ header {
           padding-left: 16px;
           margin-left: -22px;
           border-left: 1px solid #e6e6e6;
+        }
+        .search {
+          float: right;
+          margin: 17px 0 17px 0;
+          select {
+            width: 80px;
+            height: 34px;
+            border: 1px solid rgba(230, 230, 230, 1);
+            padding-left: 22px;
+            option {
+              width: 80px;
+              height: 34px;
+            }
+          }
         }
       }
     }

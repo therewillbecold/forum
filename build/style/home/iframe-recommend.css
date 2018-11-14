@@ -136,10 +136,11 @@ ul {
 .traUni-news .box3 .list li .headTit a {
   font-size: 14px;
   color: #31424e;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
 
 .traUni-news .box3 .list li:hover .headTit a {
-  color: #ee5b2e; }
+  color: #3e93d2; }
 
 .traUni-news .box3 .list .cover {
   position: absolute;
